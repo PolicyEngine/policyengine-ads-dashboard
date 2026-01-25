@@ -115,7 +115,7 @@ class PlatformData(BaseModel):
         return {
             "platform": self.platform,
             "platform_name": self.platform_name,
-            "last_updated": self.last_updated.isoformat() + "Z",
+            "last_updated": self.last_updated.isoformat().replace("+00:00", "Z"),
             "date_range": {
                 "start": self.date_range_start,
                 "end": self.date_range_end,

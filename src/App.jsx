@@ -67,7 +67,7 @@ function Dashboard({ data }) {
   return (
     <>
       <Header lastUpdated={data.last_updated} />
-      <Container size="lg" py="md" px="md">
+      <Container fluid py="md" px="xl">
         <Tabs value={activeTab} onChange={setActiveTab}>
           <Tabs.List mb="md">
             <Tabs.Tab value="overview" leftSection={<IconChartBar size={16} />}>

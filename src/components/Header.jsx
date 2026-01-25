@@ -13,7 +13,7 @@ export default function Header({ lastUpdated }) {
 
   return (
     <header style={{ backgroundColor: '#319795', padding: '0.75rem 0' }}>
-      <Container size="lg" px="md">
+      <Container fluid px="xl">
         <Group justify="space-between" align="center">
           <Group gap="sm">
             <Text c="white" fw={700} size="md">
