@@ -7,6 +7,7 @@ import {
   IconWorld,
   IconInfoCircle,
   IconAlertCircle,
+  IconAd,
 } from '@tabler/icons-react';
 import { theme } from './theme';
 import Header from './components/Header';
@@ -15,6 +16,7 @@ import TimeSeriesChart from './components/TimeSeriesChart';
 import CampaignTable from './components/CampaignTable';
 import KeywordTable from './components/KeywordTable';
 import GeographyChart from './components/GeographyChart';
+import AdsTable from './components/AdsTable';
 import useAdsData from './hooks/useAdsData';
 
 function LoadingState() {
@@ -77,6 +79,9 @@ function Dashboard({ data }) {
             <Tabs.Tab value="keywords" leftSection={<IconList size={16} />}>
               Keywords
             </Tabs.Tab>
+            <Tabs.Tab value="ads" leftSection={<IconAd size={16} />}>
+              Ads
+            </Tabs.Tab>
             <Tabs.Tab value="geography" leftSection={<IconWorld size={16} />}>
               Geography
             </Tabs.Tab>
@@ -98,6 +103,10 @@ function Dashboard({ data }) {
 
           <Tabs.Panel value="keywords">
             <KeywordTable keywords={data.keywords} />
+          </Tabs.Panel>
+
+          <Tabs.Panel value="ads">
+            <AdsTable ads={data.ads} />
           </Tabs.Panel>
 
           <Tabs.Panel value="geography">
