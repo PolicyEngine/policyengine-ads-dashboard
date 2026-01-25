@@ -1,6 +1,6 @@
 import '@mantine/core/styles.css';
 import { useState } from 'react';
-import { MantineProvider, Container, Tabs, Text, Center, Loader, Alert } from '@mantine/core';
+import { MantineProvider, Container, Tabs, Text, Center, Loader, Alert, Box } from '@mantine/core';
 import {
   IconChartBar,
   IconList,
@@ -11,6 +11,10 @@ import {
 import { theme } from './theme';
 import Header from './components/Header';
 import SummaryCards from './components/SummaryCards';
+import TimeSeriesChart from './components/TimeSeriesChart';
+import CampaignTable from './components/CampaignTable';
+import KeywordTable from './components/KeywordTable';
+import GeographyChart from './components/GeographyChart';
 import useAdsData from './hooks/useAdsData';
 
 function LoadingState() {
@@ -23,7 +27,7 @@ function LoadingState() {
 
 function ErrorState({ error }) {
   return (
-    <Container size="sm" py="xl">
+    <Container size="lg" py="md">
       <Alert icon={<IconAlertCircle size={16} />} title="Error loading data" color="red">
         {error}
       </Alert>
@@ -33,7 +37,7 @@ function ErrorState({ error }) {
 
 function AboutSection() {
   return (
-    <div>
+    <Box maw={700}>
       <Text size="lg" mb="md">
         PolicyEngine is a nonprofit organization that builds open-source tools for tax and benefit
         policy analysis.
@@ -51,7 +55,7 @@ function AboutSection() {
         Data is updated daily via automated processes. For questions, contact{' '}
         <a href="mailto:hello@policyengine.org">hello@policyengine.org</a>.
       </Text>
-    </div>
+    </Box>
   );
 }
 
@@ -61,9 +65,9 @@ function Dashboard({ data }) {
   return (
     <>
       <Header lastUpdated={data.last_updated} />
-      <Container size="xl" py="xl">
+      <Container size="lg" py="md" px="md">
         <Tabs value={activeTab} onChange={setActiveTab}>
-          <Tabs.List mb="xl">
+          <Tabs.List mb="md">
             <Tabs.Tab value="overview" leftSection={<IconChartBar size={16} />}>
               Overview
             </Tabs.Tab>
@@ -83,21 +87,21 @@ function Dashboard({ data }) {
 
           <Tabs.Panel value="overview">
             <SummaryCards summary={data.summary} />
-            <Text c="dimmed" ta="center" mt="xl">
-              Time series chart coming soon
-            </Text>
+            <Box mt="lg">
+              <TimeSeriesChart daily={data.daily} />
+            </Box>
           </Tabs.Panel>
 
           <Tabs.Panel value="campaigns">
-            <Text c="dimmed">Campaign table coming soon</Text>
+            <CampaignTable campaigns={data.campaigns} adGroups={data.ad_groups} />
           </Tabs.Panel>
 
           <Tabs.Panel value="keywords">
-            <Text c="dimmed">Keyword table coming soon</Text>
+            <KeywordTable keywords={data.keywords} />
           </Tabs.Panel>
 
           <Tabs.Panel value="geography">
-            <Text c="dimmed">Geography chart coming soon</Text>
+            <GeographyChart geography={data.geography} />
           </Tabs.Panel>
 
           <Tabs.Panel value="about">

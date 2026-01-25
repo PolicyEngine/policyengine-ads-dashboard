@@ -12,19 +12,19 @@ export default function Header({ lastUpdated }) {
     : null;
 
   return (
-    <header style={{ backgroundColor: '#319795', padding: '1rem 0' }}>
-      <Container size="xl">
+    <header style={{ backgroundColor: '#319795', padding: '0.75rem 0' }}>
+      <Container size="lg" px="md">
         <Group justify="space-between" align="center">
-          <Group gap="md">
-            <Text c="white" fw={700} size="lg">
+          <Group gap="sm">
+            <Text c="white" fw={700} size="md">
               PolicyEngine
             </Text>
-            <Title order={1} c="white" size="h3">
+            <Title order={1} c="white" size="h4">
               Ads transparency dashboard
             </Title>
           </Group>
           {formattedDate && (
-            <Badge variant="light" color="white" size="lg">
+            <Badge variant="light" color="white" size="md">
               Last updated: {formattedDate}
             </Badge>
           )}
