@@ -6,7 +6,7 @@ This guide explains how to manage PolicyEngine's Google Ads campaigns using Clau
 
 ### MCP configuration
 
-Ensure your `~/.claude/settings.json` has the complete MCP configured:
+Ensure your `~/.mcp.json` has the google-ads MCP configured:
 
 ```json
 {
@@ -19,15 +19,17 @@ Ensure your `~/.claude/settings.json` has the complete MCP configured:
         "/Users/maxghenis/tmp/google-ads-mcp-complete",
         "python",
         "-m",
-        "google_ads_mcp_complete.server"
+        "google_ads_mcp_complete.fastmcp_server"
       ],
       "env": {
-        "GOOGLE_ADS_CONFIG_PATH": "/Users/maxghenis/tmp/google-ads-mcp-complete/config.json"
+        "GOOGLE_ADS_CONFIG_PATH": "/Users/maxghenis/.config/google-ads-mcp/config.json"
       }
     }
   }
 }
 ```
+
+**Note:** After changing MCP configuration, restart Claude Code (`/exit` then `claude`) for changes to take effect. A full quit (Cmd+Q) is not required.
 
 ### Account IDs
 
