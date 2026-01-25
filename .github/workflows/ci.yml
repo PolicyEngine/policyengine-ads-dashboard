@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  test:
+  test-frontend:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,3 +27,28 @@ jobs:
 
       - name: Build
         run: bun run build
+
+  test-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install package
+        run: uv pip install --system -e ".[dev]"
+
+      - name: Run tests
+        run: pytest tests/ -v --cov=policyengine_ads_dashboard
+
+      - name: Lint
+        run: ruff check policyengine_ads_dashboard/
+
+      - name: Format check
+        run: black --check policyengine_ads_dashboard/ tests/

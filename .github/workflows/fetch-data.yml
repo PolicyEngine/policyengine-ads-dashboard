@@ -14,12 +14,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
 
-      - name: Install dependencies
-        run: pip install google-ads pydantic
+      - name: Install package
+        run: uv pip install --system -e .
 
       - name: Fetch Google Ads data
         env:
@@ -29,7 +33,7 @@ jobs:
           GOOGLE_ADS_DEVELOPER_TOKEN: ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
           GOOGLE_ADS_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_CUSTOMER_ID }}
           GOOGLE_ADS_LOGIN_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_LOGIN_CUSTOMER_ID }}
-        run: python scripts/fetch_google_ads.py
+        run: fetch-ads-data
 
       - name: Commit updated data
         run: |
