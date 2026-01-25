@@ -1,0 +1,23 @@
+import { createTheme } from '@mantine/core';
+
+export const theme = createTheme({
+  primaryColor: 'teal',
+  colors: {
+    teal: [
+      '#E6FFFA',
+      '#B2F5EA',
+      '#81E6D9',
+      '#4FD1C5',
+      '#38B2AC',
+      '#319795', // Primary - index 5
+      '#2C7A7B',
+      '#285E61',
+      '#234E52',
+      '#1D4044',
+    ],
+  },
+  fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif',
+  headings: {
+    fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif',
+  },
+});
