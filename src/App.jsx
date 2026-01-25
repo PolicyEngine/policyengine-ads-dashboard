@@ -1,6 +1,6 @@
 import '@mantine/core/styles.css';
 import { useState } from 'react';
-import { MantineProvider, Container, Tabs, Text, Center, Loader, Alert, Box } from '@mantine/core';
+import { MantineProvider, Container, Tabs, Text, Center, Loader, Alert, Box, Group, Title, Badge } from '@mantine/core';
 import {
   IconChartBar,
   IconList,
@@ -65,10 +65,26 @@ function Dashboard({ data }) {
   const [activeTab, setActiveTab] = useState('overview');
   const isEmbedded = new URLSearchParams(window.location.search).get('embedded') === 'true';
 
+  const formattedDate = data.last_updated
+    ? new Date(data.last_updated).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+      })
+    : null;
+
   return (
     <>
       {!isEmbedded && <Header lastUpdated={data.last_updated} />}
       <Container fluid py="md" px="xl">
+        <Group justify="space-between" align="center" mb="md">
+          <Title order={2} c="teal.7">Ads transparency dashboard</Title>
+          {formattedDate && (
+            <Text size="sm" c="dimmed">Last updated: {formattedDate}</Text>
+          )}
+        </Group>
         <Tabs value={activeTab} onChange={setActiveTab}>
           <Tabs.List mb="md">
             <Tabs.Tab value="overview" leftSection={<IconChartBar size={16} />}>
