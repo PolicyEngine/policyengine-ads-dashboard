@@ -3,7 +3,7 @@ import { Table, Text, UnstyledButton } from '@mantine/core';
 import { IconChevronUp, IconChevronDown, IconSelector } from '@tabler/icons-react';
 
 export function SortableHeader({ children, sorted, reversed, onSort, align = 'left' }) {
-  const Icon = sorted ? (reversed ? IconChevronUp : IconChevronDown) : IconSelector;
+  const Icon = sorted ? (reversed ? IconChevronDown : IconChevronUp) : IconSelector;
   return (
     <Table.Th style={{ textAlign: align }}>
       <UnstyledButton
