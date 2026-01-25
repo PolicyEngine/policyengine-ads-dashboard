@@ -1,36 +1,34 @@
-import { Table, Text, Badge, Group } from '@mantine/core';
-
-const formatCurrency = (value) =>
-  `$${value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-const formatNumber = (value) => value.toLocaleString('en-US');
-const formatPercent = (value) => `${(value * 100).toFixed(2)}%`;
+import { Table, Text, Badge } from '@mantine/core';
+import { SortableHeader, sortData, useTableSort, formatCurrency, formatNumber, formatPercent } from './SortableTable';
 
 export default function CampaignTable({ campaigns, adGroups }) {
+  const { sort: campaignSort, handleSort: handleCampaignSort } = useTableSort('spend', true);
+  const { sort: adGroupSort, handleSort: handleAdGroupSort } = useTableSort('spend', true);
+
+  const sortedCampaigns = sortData(campaigns, campaignSort.sortBy, campaignSort.reversed);
+  const sortedAdGroups = sortData(adGroups, adGroupSort.sortBy, adGroupSort.reversed);
+
   return (
     <>
       <Text size="lg" fw={600} mb="md">Campaigns</Text>
       <Table striped highlightOnHover withTableBorder>
         <Table.Thead>
           <Table.Tr>
-            <Table.Th>Campaign</Table.Th>
-            <Table.Th>Status</Table.Th>
-            <Table.Th ta="right">Spend</Table.Th>
-            <Table.Th ta="right">Impressions</Table.Th>
-            <Table.Th ta="right">Clicks</Table.Th>
-            <Table.Th ta="right">CTR</Table.Th>
-            <Table.Th ta="right">Conversions</Table.Th>
+            <SortableHeader sorted={campaignSort.sortBy === 'name'} reversed={!campaignSort.reversed} onSort={() => handleCampaignSort('name')}>Campaign</SortableHeader>
+            <SortableHeader sorted={campaignSort.sortBy === 'status'} reversed={!campaignSort.reversed} onSort={() => handleCampaignSort('status')}>Status</SortableHeader>
+            <SortableHeader sorted={campaignSort.sortBy === 'spend'} reversed={campaignSort.reversed} onSort={() => handleCampaignSort('spend')} align="right">Spend</SortableHeader>
+            <SortableHeader sorted={campaignSort.sortBy === 'impressions'} reversed={campaignSort.reversed} onSort={() => handleCampaignSort('impressions')} align="right">Impressions</SortableHeader>
+            <SortableHeader sorted={campaignSort.sortBy === 'clicks'} reversed={campaignSort.reversed} onSort={() => handleCampaignSort('clicks')} align="right">Clicks</SortableHeader>
+            <SortableHeader sorted={campaignSort.sortBy === 'ctr'} reversed={campaignSort.reversed} onSort={() => handleCampaignSort('ctr')} align="right">CTR</SortableHeader>
+            <SortableHeader sorted={campaignSort.sortBy === 'conversions'} reversed={campaignSort.reversed} onSort={() => handleCampaignSort('conversions')} align="right">Conversions</SortableHeader>
           </Table.Tr>
         </Table.Thead>
         <Table.Tbody>
-          {campaigns.map((campaign) => (
+          {sortedCampaigns.map((campaign) => (
             <Table.Tr key={campaign.id}>
+              <Table.Td><Text fw={500}>{campaign.name}</Text></Table.Td>
               <Table.Td>
-                <Text fw={500}>{campaign.name}</Text>
-              </Table.Td>
-              <Table.Td>
-                <Badge color={campaign.status === 'ENABLED' ? 'green' : 'gray'} size="sm">
-                  {campaign.status}
-                </Badge>
+                <Badge color={campaign.status === 'ENABLED' ? 'green' : 'gray'} size="sm">{campaign.status}</Badge>
               </Table.Td>
               <Table.Td ta="right">{formatCurrency(campaign.spend)}</Table.Td>
               <Table.Td ta="right">{formatNumber(campaign.impressions)}</Table.Td>
@@ -42,35 +40,29 @@ export default function CampaignTable({ campaigns, adGroups }) {
         </Table.Tbody>
       </Table>
 
-      <Text size="lg" fw={600} mt="xl" mb="md">Ad Groups</Text>
+      <Text size="lg" fw={600} mt="xl" mb="md">Ad groups</Text>
       <Table striped highlightOnHover withTableBorder>
         <Table.Thead>
           <Table.Tr>
-            <Table.Th>Ad Group</Table.Th>
-            <Table.Th>Campaign</Table.Th>
-            <Table.Th ta="right">Spend</Table.Th>
-            <Table.Th ta="right">Impressions</Table.Th>
-            <Table.Th ta="right">Clicks</Table.Th>
-            <Table.Th ta="right">Conversions</Table.Th>
+            <SortableHeader sorted={adGroupSort.sortBy === 'name'} reversed={!adGroupSort.reversed} onSort={() => handleAdGroupSort('name')}>Ad group</SortableHeader>
+            <SortableHeader sorted={adGroupSort.sortBy === 'campaign_name'} reversed={!adGroupSort.reversed} onSort={() => handleAdGroupSort('campaign_name')}>Campaign</SortableHeader>
+            <SortableHeader sorted={adGroupSort.sortBy === 'spend'} reversed={adGroupSort.reversed} onSort={() => handleAdGroupSort('spend')} align="right">Spend</SortableHeader>
+            <SortableHeader sorted={adGroupSort.sortBy === 'impressions'} reversed={adGroupSort.reversed} onSort={() => handleAdGroupSort('impressions')} align="right">Impressions</SortableHeader>
+            <SortableHeader sorted={adGroupSort.sortBy === 'clicks'} reversed={adGroupSort.reversed} onSort={() => handleAdGroupSort('clicks')} align="right">Clicks</SortableHeader>
+            <SortableHeader sorted={adGroupSort.sortBy === 'conversions'} reversed={adGroupSort.reversed} onSort={() => handleAdGroupSort('conversions')} align="right">Conversions</SortableHeader>
           </Table.Tr>
         </Table.Thead>
         <Table.Tbody>
-          {adGroups
-            .sort((a, b) => b.spend - a.spend)
-            .map((ag) => (
-              <Table.Tr key={ag.id}>
-                <Table.Td>
-                  <Text fw={500}>{ag.name}</Text>
-                </Table.Td>
-                <Table.Td>
-                  <Text size="sm" c="dimmed">{ag.campaign_name}</Text>
-                </Table.Td>
-                <Table.Td ta="right">{formatCurrency(ag.spend)}</Table.Td>
-                <Table.Td ta="right">{formatNumber(ag.impressions)}</Table.Td>
-                <Table.Td ta="right">{formatNumber(ag.clicks)}</Table.Td>
-                <Table.Td ta="right">{formatNumber(Math.round(ag.conversions))}</Table.Td>
-              </Table.Tr>
-            ))}
+          {sortedAdGroups.map((ag) => (
+            <Table.Tr key={ag.id}>
+              <Table.Td><Text fw={500}>{ag.name}</Text></Table.Td>
+              <Table.Td><Text size="sm" c="dimmed">{ag.campaign_name}</Text></Table.Td>
+              <Table.Td ta="right">{formatCurrency(ag.spend)}</Table.Td>
+              <Table.Td ta="right">{formatNumber(ag.impressions)}</Table.Td>
+              <Table.Td ta="right">{formatNumber(ag.clicks)}</Table.Td>
+              <Table.Td ta="right">{formatNumber(Math.round(ag.conversions))}</Table.Td>
+            </Table.Tr>
+          ))}
         </Table.Tbody>
       </Table>
     </>

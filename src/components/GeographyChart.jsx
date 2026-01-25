@@ -1,4 +1,4 @@
-import { Table, Text, Progress, Group } from '@mantine/core';
+import { Table, Text, Progress } from '@mantine/core';
 import {
   BarChart,
   Bar,
@@ -8,20 +8,21 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from 'recharts';
-
-const formatCurrency = (value) =>
-  `$${value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-const formatNumber = (value) => value.toLocaleString('en-US');
+import { SortableHeader, sortData, useTableSort, formatCurrency, formatNumber } from './SortableTable';
 
 export default function GeographyChart({ geography }) {
-  // Sort by spend and get top 20 for chart
-  const sortedGeo = [...geography].sort((a, b) => b.spend - a.spend);
-  const topGeo = sortedGeo.slice(0, 20);
+  const { sort, handleSort } = useTableSort('spend', true);
+
+  // Sort for table
+  const sortedGeo = sortData(geography, sort.sortBy, sort.reversed);
+
+  // Top 20 by spend for chart (always sorted by spend)
+  const topGeo = [...geography].sort((a, b) => b.spend - a.spend).slice(0, 20);
   const maxSpend = Math.max(...geography.map((g) => g.spend));
 
   return (
     <>
-      <Text size="lg" fw={600} mb="md">Spend by Country (Top 20)</Text>
+      <Text size="lg" fw={600} mb="md">Spend by country (top 20)</Text>
       <ResponsiveContainer width="100%" height={400}>
         <BarChart data={topGeo} layout="vertical" margin={{ top: 5, right: 30, left: 100, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e0e0e0" />
@@ -32,28 +33,24 @@ export default function GeographyChart({ geography }) {
         </BarChart>
       </ResponsiveContainer>
 
-      <Text size="lg" fw={600} mt="xl" mb="md">All Countries</Text>
+      <Text size="lg" fw={600} mt="xl" mb="md">All countries</Text>
       <Table striped highlightOnHover withTableBorder>
         <Table.Thead>
           <Table.Tr>
-            <Table.Th>Country</Table.Th>
-            <Table.Th>Code</Table.Th>
-            <Table.Th ta="right">Spend</Table.Th>
-            <Table.Th ta="right">Impressions</Table.Th>
-            <Table.Th ta="right">Clicks</Table.Th>
-            <Table.Th ta="right">Conversions</Table.Th>
+            <SortableHeader sorted={sort.sortBy === 'location_name'} reversed={!sort.reversed} onSort={() => handleSort('location_name')}>Country</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'country_code'} reversed={!sort.reversed} onSort={() => handleSort('country_code')}>Code</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'spend'} reversed={sort.reversed} onSort={() => handleSort('spend')} align="right">Spend</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'impressions'} reversed={sort.reversed} onSort={() => handleSort('impressions')} align="right">Impressions</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'clicks'} reversed={sort.reversed} onSort={() => handleSort('clicks')} align="right">Clicks</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'conversions'} reversed={sort.reversed} onSort={() => handleSort('conversions')} align="right">Conversions</SortableHeader>
             <Table.Th w={150}>Share</Table.Th>
           </Table.Tr>
         </Table.Thead>
         <Table.Tbody>
           {sortedGeo.map((geo) => (
             <Table.Tr key={geo.country_code}>
-              <Table.Td>
-                <Text fw={500}>{geo.location_name}</Text>
-              </Table.Td>
-              <Table.Td>
-                <Text size="sm" c="dimmed">{geo.country_code}</Text>
-              </Table.Td>
+              <Table.Td><Text fw={500}>{geo.location_name}</Text></Table.Td>
+              <Table.Td><Text size="sm" c="dimmed">{geo.country_code}</Text></Table.Td>
               <Table.Td ta="right">{formatCurrency(geo.spend)}</Table.Td>
               <Table.Td ta="right">{formatNumber(geo.impressions)}</Table.Td>
               <Table.Td ta="right">{formatNumber(geo.clicks)}</Table.Td>

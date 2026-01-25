@@ -1,9 +1,5 @@
 import { Table, Text, Badge } from '@mantine/core';
-
-const formatCurrency = (value) =>
-  `$${value.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-const formatNumber = (value) => value.toLocaleString('en-US');
-const formatPercent = (value) => `${(value * 100).toFixed(2)}%`;
+import { SortableHeader, sortData, useTableSort, formatCurrency, formatNumber, formatPercent } from './SortableTable';
 
 const matchTypeColors = {
   BROAD: 'blue',
@@ -12,35 +8,32 @@ const matchTypeColors = {
 };
 
 export default function KeywordTable({ keywords }) {
+  const { sort, handleSort } = useTableSort('spend', true);
+  const sortedKeywords = sortData(keywords, sort.sortBy, sort.reversed);
+
   return (
     <>
-      <Text size="lg" fw={600} mb="md">Top Keywords by Spend</Text>
+      <Text size="lg" fw={600} mb="md">Top keywords by spend</Text>
       <Table striped highlightOnHover withTableBorder>
         <Table.Thead>
           <Table.Tr>
-            <Table.Th>Keyword</Table.Th>
-            <Table.Th>Match Type</Table.Th>
-            <Table.Th>Campaign</Table.Th>
-            <Table.Th ta="right">Spend</Table.Th>
-            <Table.Th ta="right">Impressions</Table.Th>
-            <Table.Th ta="right">Clicks</Table.Th>
-            <Table.Th ta="right">CTR</Table.Th>
+            <SortableHeader sorted={sort.sortBy === 'text'} reversed={!sort.reversed} onSort={() => handleSort('text')}>Keyword</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'match_type'} reversed={!sort.reversed} onSort={() => handleSort('match_type')}>Match type</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'campaign_name'} reversed={!sort.reversed} onSort={() => handleSort('campaign_name')}>Campaign</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'spend'} reversed={sort.reversed} onSort={() => handleSort('spend')} align="right">Spend</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'impressions'} reversed={sort.reversed} onSort={() => handleSort('impressions')} align="right">Impressions</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'clicks'} reversed={sort.reversed} onSort={() => handleSort('clicks')} align="right">Clicks</SortableHeader>
+            <SortableHeader sorted={sort.sortBy === 'ctr'} reversed={sort.reversed} onSort={() => handleSort('ctr')} align="right">CTR</SortableHeader>
           </Table.Tr>
         </Table.Thead>
         <Table.Tbody>
-          {keywords.map((kw, index) => (
+          {sortedKeywords.map((kw, index) => (
             <Table.Tr key={`${kw.text}-${index}`}>
+              <Table.Td><Text fw={500}>{kw.text}</Text></Table.Td>
               <Table.Td>
-                <Text fw={500}>{kw.text}</Text>
+                <Badge color={matchTypeColors[kw.match_type] || 'gray'} size="sm">{kw.match_type}</Badge>
               </Table.Td>
-              <Table.Td>
-                <Badge color={matchTypeColors[kw.match_type] || 'gray'} size="sm">
-                  {kw.match_type}
-                </Badge>
-              </Table.Td>
-              <Table.Td>
-                <Text size="sm" c="dimmed">{kw.campaign_name}</Text>
-              </Table.Td>
+              <Table.Td><Text size="sm" c="dimmed">{kw.campaign_name}</Text></Table.Td>
               <Table.Td ta="right">{formatCurrency(kw.spend)}</Table.Td>
               <Table.Td ta="right">{formatNumber(kw.impressions)}</Table.Td>
               <Table.Td ta="right">{formatNumber(kw.clicks)}</Table.Td>
