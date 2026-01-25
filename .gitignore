@@ -36,3 +36,4 @@ venv/
 htmlcov/
 .pytest_cache/
 uv.lock
+.vercel
