@@ -63,10 +63,11 @@ function AboutSection() {
 
 function Dashboard({ data }) {
   const [activeTab, setActiveTab] = useState('overview');
+  const isEmbedded = new URLSearchParams(window.location.search).get('embedded') === 'true';
 
   return (
     <>
-      <Header lastUpdated={data.last_updated} />
+      {!isEmbedded && <Header lastUpdated={data.last_updated} />}
       <Container fluid py="md" px="xl">
         <Tabs value={activeTab} onChange={setActiveTab}>
           <Tabs.List mb="md">
