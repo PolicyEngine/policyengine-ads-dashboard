@@ -1,671 +1,20 @@
 {
   "platform": "google_ads",
   "platform_name": "Google Ads",
-  "last_updated": "2026-01-25T02:14:29.910200Z",
+  "last_updated": "2026-04-28T07:04:36.558803Z",
   "date_range": {
-    "start": "2025-01-25",
-    "end": "2026-01-25"
+    "start": "2025-04-28",
+    "end": "2026-04-28"
   },
   "summary": {
-    "total_spend": 27088.36,
-    "total_impressions": 123083,
-    "total_clicks": 4635,
-    "ctr": 0.0377,
-    "conversions": 1109,
-    "avg_cpc": 5.84
+    "total_spend": 32810.86,
+    "total_impressions": 74928,
+    "total_clicks": 5017,
+    "ctr": 0.067,
+    "conversions": 1345,
+    "avg_cpc": 6.54
   },
   "daily": [
-    {
-      "date": "2025-01-25",
-      "spend": 293.406313,
-      "impressions": 1467,
-      "clicks": 57,
-      "conversions": 13.817542
-    },
-    {
-      "date": "2025-01-26",
-      "spend": 296.682341,
-      "impressions": 1647,
-      "clicks": 68,
-      "conversions": 11.819221
-    },
-    {
-      "date": "2025-01-27",
-      "spend": 328.979333,
-      "impressions": 2100,
-      "clicks": 74,
-      "conversions": 14.0
-    },
-    {
-      "date": "2025-01-28",
-      "spend": 328.746839,
-      "impressions": 2124,
-      "clicks": 76,
-      "conversions": 24.688949
-    },
-    {
-      "date": "2025-01-29",
-      "spend": 328.975288,
-      "impressions": 1703,
-      "clicks": 70,
-      "conversions": 16.0
-    },
-    {
-      "date": "2025-01-30",
-      "spend": 328.082412,
-      "impressions": 2015,
-      "clicks": 77,
-      "conversions": 10.856643
-    },
-    {
-      "date": "2025-01-31",
-      "spend": 324.402707,
-      "impressions": 2398,
-      "clicks": 70,
-      "conversions": 14.0
-    },
-    {
-      "date": "2025-02-01",
-      "spend": 300.088892,
-      "impressions": 1954,
-      "clicks": 63,
-      "conversions": 17.801102
-    },
-    {
-      "date": "2025-02-02",
-      "spend": 230.410979,
-      "impressions": 1605,
-      "clicks": 54,
-      "conversions": 11.889436
-    },
-    {
-      "date": "2025-02-03",
-      "spend": 327.981909,
-      "impressions": 1790,
-      "clicks": 75,
-      "conversions": 12.889436
-    },
-    {
-      "date": "2025-02-04",
-      "spend": 329.695022,
-      "impressions": 2123,
-      "clicks": 72,
-      "conversions": 10.881858
-    },
-    {
-      "date": "2025-02-05",
-      "spend": 328.997616,
-      "impressions": 1784,
-      "clicks": 67,
-      "conversions": 23.0
-    },
-    {
-      "date": "2025-02-06",
-      "spend": 316.759977,
-      "impressions": 2120,
-      "clicks": 71,
-      "conversions": 13.762106
-    },
-    {
-      "date": "2025-02-07",
-      "spend": 331.981921,
-      "impressions": 1531,
-      "clicks": 69,
-      "conversions": 11.0
-    },
-    {
-      "date": "2025-02-08",
-      "spend": 282.229247,
-      "impressions": 1562,
-      "clicks": 62,
-      "conversions": 9.888782
-    },
-    {
-      "date": "2025-02-09",
-      "spend": 330.248115,
-      "impressions": 1407,
-      "clicks": 67,
-      "conversions": 10.0
-    },
-    {
-      "date": "2025-02-10",
-      "spend": 333.87105,
-      "impressions": 1773,
-      "clicks": 70,
-      "conversions": 19.917837
-    },
-    {
-      "date": "2025-02-11",
-      "spend": 327.367742,
-      "impressions": 1831,
-      "clicks": 70,
-      "conversions": 9.0
-    },
-    {
-      "date": "2025-02-12",
-      "spend": 328.994185,
-      "impressions": 1653,
-      "clicks": 71,
-      "conversions": 14.0
-    },
-    {
-      "date": "2025-02-13",
-      "spend": 322.854571,
-      "impressions": 1808,
-      "clicks": 68,
-      "conversions": 22.0
-    },
-    {
-      "date": "2025-02-14",
-      "spend": 307.478828,
-      "impressions": 1702,
-      "clicks": 64,
-      "conversions": 10.0
-    },
-    {
-      "date": "2025-02-15",
-      "spend": 186.071715,
-      "impressions": 1731,
-      "clicks": 40,
-      "conversions": 11.909054
-    },
-    {
-      "date": "2025-02-16",
-      "spend": 334.891492,
-      "impressions": 1877,
-      "clicks": 62,
-      "conversions": 7.909054
-    },
-    {
-      "date": "2025-02-17",
-      "spend": 327.958697,
-      "impressions": 1741,
-      "clicks": 56,
-      "conversions": 12.0
-    },
-    {
-      "date": "2025-02-18",
-      "spend": 328.965576,
-      "impressions": 2056,
-      "clicks": 59,
-      "conversions": 10.0
-    },
-    {
-      "date": "2025-02-19",
-      "spend": 328.803427,
-      "impressions": 1785,
-      "clicks": 58,
-      "conversions": 11.0
-    },
-    {
-      "date": "2025-02-20",
-      "spend": 328.333608,
-      "impressions": 1760,
-      "clicks": 62,
-      "conversions": 15.722376
-    },
-    {
-      "date": "2025-02-21",
-      "spend": 275.156607,
-      "impressions": 1623,
-      "clicks": 49,
-      "conversions": 15.7234
-    },
-    {
-      "date": "2025-02-22",
-      "spend": 247.565288,
-      "impressions": 1637,
-      "clicks": 47,
-      "conversions": 7.0
-    },
-    {
-      "date": "2025-02-23",
-      "spend": 282.536778,
-      "impressions": 1400,
-      "clicks": 45,
-      "conversions": 11.859737
-    },
-    {
-      "date": "2025-02-24",
-      "spend": 317.53929,
-      "impressions": 1883,
-      "clicks": 52,
-      "conversions": 8.833725
-    },
-    {
-      "date": "2025-02-25",
-      "spend": 234.670613,
-      "impressions": 1557,
-      "clicks": 39,
-      "conversions": 5.0
-    },
-    {
-      "date": "2025-02-26",
-      "spend": 328.617897,
-      "impressions": 1485,
-      "clicks": 49,
-      "conversions": 10.0
-    },
-    {
-      "date": "2025-02-27",
-      "spend": 280.004186,
-      "impressions": 1313,
-      "clicks": 38,
-      "conversions": 17.84857
-    },
-    {
-      "date": "2025-02-28",
-      "spend": 294.638051,
-      "impressions": 1035,
-      "clicks": 42,
-      "conversions": 9.849155
-    },
-    {
-      "date": "2025-03-01",
-      "spend": 149.161922,
-      "impressions": 1018,
-      "clicks": 21,
-      "conversions": 8.849155
-    },
-    {
-      "date": "2025-03-02",
-      "spend": 136.129591,
-      "impressions": 906,
-      "clicks": 20,
-      "conversions": 2.871944
-    },
-    {
-      "date": "2025-03-03",
-      "spend": 132.129307,
-      "impressions": 983,
-      "clicks": 19,
-      "conversions": 3.0
-    },
-    {
-      "date": "2025-03-04",
-      "spend": 88.009597,
-      "impressions": 770,
-      "clicks": 15,
-      "conversions": 4.0
-    },
-    {
-      "date": "2025-03-05",
-      "spend": 74.181539,
-      "impressions": 693,
-      "clicks": 12,
-      "conversions": 5.0
-    },
-    {
-      "date": "2025-03-06",
-      "spend": 53.82,
-      "impressions": 611,
-      "clicks": 10,
-      "conversions": 6.676405
-    },
-    {
-      "date": "2025-03-07",
-      "spend": 101.955509,
-      "impressions": 545,
-      "clicks": 11,
-      "conversions": 8.192863
-    },
-    {
-      "date": "2025-03-08",
-      "spend": 41.88,
-      "impressions": 601,
-      "clicks": 7,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-09",
-      "spend": 40.9,
-      "impressions": 560,
-      "clicks": 7,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-10",
-      "spend": 32.259393,
-      "impressions": 570,
-      "clicks": 6,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-03-11",
-      "spend": 103.258436,
-      "impressions": 544,
-      "clicks": 17,
-      "conversions": 4.0
-    },
-    {
-      "date": "2025-03-12",
-      "spend": 26.080076,
-      "impressions": 680,
-      "clicks": 7,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-13",
-      "spend": 56.627122,
-      "impressions": 760,
-      "clicks": 11,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-14",
-      "spend": 45.469002,
-      "impressions": 691,
-      "clicks": 10,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-15",
-      "spend": 52.03,
-      "impressions": 682,
-      "clicks": 10,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-16",
-      "spend": 65.631768,
-      "impressions": 616,
-      "clicks": 11,
-      "conversions": 0.920117
-    },
-    {
-      "date": "2025-03-17",
-      "spend": 70.4,
-      "impressions": 646,
-      "clicks": 10,
-      "conversions": 0.0
-    },
-    {
-      "date": "2025-03-18",
-      "spend": 53.85,
-      "impressions": 547,
-      "clicks": 10,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-19",
-      "spend": 62.099328,
-      "impressions": 612,
-      "clicks": 11,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-20",
-      "spend": 64.783415,
-      "impressions": 469,
-      "clicks": 11,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-21",
-      "spend": 26.94,
-      "impressions": 380,
-      "clicks": 6,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-03-22",
-      "spend": 21.28,
-      "impressions": 339,
-      "clicks": 4,
-      "conversions": 0.950686
-    },
-    {
-      "date": "2025-03-23",
-      "spend": 88.56,
-      "impressions": 397,
-      "clicks": 14,
-      "conversions": 5.981842
-    },
-    {
-      "date": "2025-03-24",
-      "spend": 87.894456,
-      "impressions": 450,
-      "clicks": 18,
-      "conversions": 1.0011
-    },
-    {
-      "date": "2025-03-25",
-      "spend": 34.206786,
-      "impressions": 436,
-      "clicks": 7,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-26",
-      "spend": 66.31,
-      "impressions": 350,
-      "clicks": 16,
-      "conversions": 5.0
-    },
-    {
-      "date": "2025-03-27",
-      "spend": 55.4,
-      "impressions": 393,
-      "clicks": 9,
-      "conversions": 2.959901
-    },
-    {
-      "date": "2025-03-28",
-      "spend": 47.41,
-      "impressions": 377,
-      "clicks": 10,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-03-29",
-      "spend": 53.525398,
-      "impressions": 428,
-      "clicks": 8,
-      "conversions": 0.0
-    },
-    {
-      "date": "2025-03-30",
-      "spend": 102.62,
-      "impressions": 411,
-      "clicks": 12,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-03-31",
-      "spend": 71.698946,
-      "impressions": 549,
-      "clicks": 11,
-      "conversions": 5.976832
-    },
-    {
-      "date": "2025-04-01",
-      "spend": 107.74,
-      "impressions": 471,
-      "clicks": 17,
-      "conversions": 6.0
-    },
-    {
-      "date": "2025-04-02",
-      "spend": 68.53,
-      "impressions": 470,
-      "clicks": 11,
-      "conversions": 5.0
-    },
-    {
-      "date": "2025-04-03",
-      "spend": 66.510809,
-      "impressions": 420,
-      "clicks": 11,
-      "conversions": 4.0
-    },
-    {
-      "date": "2025-04-04",
-      "spend": 75.18,
-      "impressions": 328,
-      "clicks": 11,
-      "conversions": 0.0
-    },
-    {
-      "date": "2025-04-05",
-      "spend": 105.21,
-      "impressions": 466,
-      "clicks": 16,
-      "conversions": 2.954661
-    },
-    {
-      "date": "2025-04-06",
-      "spend": 75.44,
-      "impressions": 511,
-      "clicks": 15,
-      "conversions": 1.965026
-    },
-    {
-      "date": "2025-04-07",
-      "spend": 132.124315,
-      "impressions": 561,
-      "clicks": 24,
-      "conversions": 4.0
-    },
-    {
-      "date": "2025-04-08",
-      "spend": 95.44,
-      "impressions": 487,
-      "clicks": 15,
-      "conversions": 3.0
-    },
-    {
-      "date": "2025-04-09",
-      "spend": 163.63166,
-      "impressions": 672,
-      "clicks": 26,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-04-10",
-      "spend": 79.747634,
-      "impressions": 424,
-      "clicks": 15,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-04-11",
-      "spend": 63.09,
-      "impressions": 379,
-      "clicks": 13,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-04-12",
-      "spend": 109.33,
-      "impressions": 496,
-      "clicks": 19,
-      "conversions": 4.0
-    },
-    {
-      "date": "2025-04-13",
-      "spend": 76.276165,
-      "impressions": 658,
-      "clicks": 12,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-04-14",
-      "spend": 188.102084,
-      "impressions": 1338,
-      "clicks": 32,
-      "conversions": 6.0
-    },
-    {
-      "date": "2025-04-15",
-      "spend": 201.266162,
-      "impressions": 1277,
-      "clicks": 32,
-      "conversions": 8.0
-    },
-    {
-      "date": "2025-04-16",
-      "spend": 132.511011,
-      "impressions": 453,
-      "clicks": 22,
-      "conversions": 6.0
-    },
-    {
-      "date": "2025-04-17",
-      "spend": 27.08,
-      "impressions": 269,
-      "clicks": 6,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-04-18",
-      "spend": 30.734276,
-      "impressions": 174,
-      "clicks": 4,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-04-19",
-      "spend": 55.532769,
-      "impressions": 105,
-      "clicks": 9,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-04-20",
-      "spend": 53.92,
-      "impressions": 116,
-      "clicks": 8,
-      "conversions": 0.0
-    },
-    {
-      "date": "2025-04-21",
-      "spend": 74.713271,
-      "impressions": 155,
-      "clicks": 11,
-      "conversions": 2.0
-    },
-    {
-      "date": "2025-04-22",
-      "spend": 59.204543,
-      "impressions": 193,
-      "clicks": 8,
-      "conversions": 2.855019
-    },
-    {
-      "date": "2025-04-23",
-      "spend": 102.04,
-      "impressions": 206,
-      "clicks": 13,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-04-24",
-      "spend": 116.1,
-      "impressions": 184,
-      "clicks": 15,
-      "conversions": 4.002377
-    },
-    {
-      "date": "2025-04-25",
-      "spend": 39.19,
-      "impressions": 135,
-      "clicks": 6,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-04-26",
-      "spend": 34.38,
-      "impressions": 110,
-      "clicks": 4,
-      "conversions": 1.0
-    },
-    {
-      "date": "2025-04-27",
-      "spend": 36.78,
-      "impressions": 75,
-      "clicks": 4,
-      "conversions": 3.0
-    },
     {
       "date": "2025-04-28",
       "spend": 56.526487,
@@ -2330,7 +1679,7 @@
       "spend": 20.683811,
       "impressions": 51,
       "clicks": 3,
-      "conversions": 0.0
+      "conversions": 1.0
     },
     {
       "date": "2025-12-22",
@@ -2449,7 +1798,7 @@
       "spend": 119.359056,
       "impressions": 202,
       "clicks": 13,
-      "conversions": 0.0
+      "conversions": 3.0
     },
     {
       "date": "2026-01-08",
@@ -2565,9 +1914,667 @@
     },
     {
       "date": "2026-01-24",
-      "spend": 115.43,
-      "impressions": 185,
-      "clicks": 11,
+      "spend": 160.23,
+      "impressions": 288,
+      "clicks": 17,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-01-25",
+      "spend": 330.728337,
+      "impressions": 499,
+      "clicks": 31,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-01-26",
+      "spend": 328.47894,
+      "impressions": 822,
+      "clicks": 48,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-01-27",
+      "spend": 278.771962,
+      "impressions": 502,
+      "clicks": 39,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-01-28",
+      "spend": 328.957147,
+      "impressions": 458,
+      "clicks": 42,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-01-29",
+      "spend": 282.733236,
+      "impressions": 701,
+      "clicks": 36,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-01-30",
+      "spend": 329.0,
+      "impressions": 426,
+      "clicks": 39,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-01-31",
+      "spend": 333.386897,
+      "impressions": 348,
+      "clicks": 34,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-01",
+      "spend": 328.91,
+      "impressions": 442,
+      "clicks": 33,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-02",
+      "spend": 328.99,
+      "impressions": 663,
+      "clicks": 45,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-03",
+      "spend": 329.45,
+      "impressions": 391,
+      "clicks": 36,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-04",
+      "spend": 328.947357,
+      "impressions": 361,
+      "clicks": 33,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-05",
+      "spend": 328.537299,
+      "impressions": 422,
+      "clicks": 37,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-06",
+      "spend": 328.949123,
+      "impressions": 506,
+      "clicks": 46,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-07",
+      "spend": 278.25,
+      "impressions": 411,
+      "clicks": 24,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-08",
+      "spend": 328.755125,
+      "impressions": 354,
+      "clicks": 29,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-09",
+      "spend": 328.964337,
+      "impressions": 500,
+      "clicks": 30,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-10",
+      "spend": 328.999935,
+      "impressions": 474,
+      "clicks": 41,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-11",
+      "spend": 337.820963,
+      "impressions": 461,
+      "clicks": 40,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-12",
+      "spend": 328.966799,
+      "impressions": 351,
+      "clicks": 38,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-13",
+      "spend": 334.305722,
+      "impressions": 473,
+      "clicks": 35,
+      "conversions": 0.25
+    },
+    {
+      "date": "2026-02-14",
+      "spend": 328.669246,
+      "impressions": 567,
+      "clicks": 34,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-15",
+      "spend": 335.542743,
+      "impressions": 328,
+      "clicks": 27,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-16",
+      "spend": 328.85239,
+      "impressions": 370,
+      "clicks": 35,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-17",
+      "spend": 341.24,
+      "impressions": 347,
+      "clicks": 35,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-18",
+      "spend": 328.776552,
+      "impressions": 604,
+      "clicks": 36,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-02-19",
+      "spend": 328.908449,
+      "impressions": 619,
+      "clicks": 44,
+      "conversions": 1.0
+    },
+    {
+      "date": "2026-02-20",
+      "spend": 328.991636,
+      "impressions": 753,
+      "clicks": 44,
+      "conversions": 5.0
+    },
+    {
+      "date": "2026-02-21",
+      "spend": 233.876023,
+      "impressions": 398,
+      "clicks": 19,
+      "conversions": 3.0
+    },
+    {
+      "date": "2026-02-22",
+      "spend": 230.226168,
+      "impressions": 267,
+      "clicks": 22,
+      "conversions": 5.0
+    },
+    {
+      "date": "2026-02-23",
+      "spend": 168.834054,
+      "impressions": 256,
+      "clicks": 24,
+      "conversions": 7.0
+    },
+    {
+      "date": "2026-02-24",
+      "spend": 268.14,
+      "impressions": 301,
+      "clicks": 33,
+      "conversions": 4.0
+    },
+    {
+      "date": "2026-02-25",
+      "spend": 235.38,
+      "impressions": 337,
+      "clicks": 27,
+      "conversions": 7.0
+    },
+    {
+      "date": "2026-02-26",
+      "spend": 221.335202,
+      "impressions": 341,
+      "clicks": 26,
+      "conversions": 8.0
+    },
+    {
+      "date": "2026-02-27",
+      "spend": 87.873344,
+      "impressions": 326,
+      "clicks": 14,
+      "conversions": 2.0
+    },
+    {
+      "date": "2026-02-28",
+      "spend": 63.136085,
+      "impressions": 210,
+      "clicks": 12,
+      "conversions": 9.0
+    },
+    {
+      "date": "2026-03-01",
+      "spend": 74.431932,
+      "impressions": 207,
+      "clicks": 14,
+      "conversions": 3.5
+    },
+    {
+      "date": "2026-03-02",
+      "spend": 211.761201,
+      "impressions": 281,
+      "clicks": 35,
+      "conversions": 7.5
+    },
+    {
+      "date": "2026-03-03",
+      "spend": 194.262885,
+      "impressions": 294,
+      "clicks": 27,
+      "conversions": 6.0
+    },
+    {
+      "date": "2026-03-04",
+      "spend": 222.77,
+      "impressions": 341,
+      "clicks": 28,
+      "conversions": 24.999999
+    },
+    {
+      "date": "2026-03-05",
+      "spend": 126.859432,
+      "impressions": 272,
+      "clicks": 23,
+      "conversions": 8.0
+    },
+    {
+      "date": "2026-03-06",
+      "spend": 277.448253,
+      "impressions": 313,
+      "clicks": 39,
+      "conversions": 18.000001
+    },
+    {
+      "date": "2026-03-07",
+      "spend": 150.09,
+      "impressions": 227,
+      "clicks": 17,
+      "conversions": 9.0
+    },
+    {
+      "date": "2026-03-08",
+      "spend": 104.016104,
+      "impressions": 181,
+      "clicks": 13,
+      "conversions": 9.0
+    },
+    {
+      "date": "2026-03-09",
+      "spend": 148.619276,
+      "impressions": 322,
+      "clicks": 28,
+      "conversions": 9.0
+    },
+    {
+      "date": "2026-03-10",
+      "spend": 100.669092,
+      "impressions": 221,
+      "clicks": 18,
+      "conversions": 4.0
+    },
+    {
+      "date": "2026-03-11",
+      "spend": 268.371938,
+      "impressions": 365,
+      "clicks": 35,
+      "conversions": 16.0
+    },
+    {
+      "date": "2026-03-12",
+      "spend": 328.856109,
+      "impressions": 370,
+      "clicks": 42,
+      "conversions": 25.0
+    },
+    {
+      "date": "2026-03-13",
+      "spend": 205.965364,
+      "impressions": 443,
+      "clicks": 37,
+      "conversions": 12.0
+    },
+    {
+      "date": "2026-03-14",
+      "spend": 86.519699,
+      "impressions": 269,
+      "clicks": 15,
+      "conversions": 9.0
+    },
+    {
+      "date": "2026-03-15",
+      "spend": 165.253179,
+      "impressions": 429,
+      "clicks": 27,
+      "conversions": 13.0
+    },
+    {
+      "date": "2026-03-16",
+      "spend": 314.384557,
+      "impressions": 798,
+      "clicks": 53,
+      "conversions": 30.0
+    },
+    {
+      "date": "2026-03-17",
+      "spend": 293.259714,
+      "impressions": 772,
+      "clicks": 50,
+      "conversions": 29.0
+    },
+    {
+      "date": "2026-03-18",
+      "spend": 328.986253,
+      "impressions": 654,
+      "clicks": 59,
+      "conversions": 31.0
+    },
+    {
+      "date": "2026-03-19",
+      "spend": 328.476436,
+      "impressions": 678,
+      "clicks": 47,
+      "conversions": 33.0
+    },
+    {
+      "date": "2026-03-20",
+      "spend": 294.784697,
+      "impressions": 768,
+      "clicks": 51,
+      "conversions": 30.0
+    },
+    {
+      "date": "2026-03-21",
+      "spend": 229.481916,
+      "impressions": 685,
+      "clicks": 45,
+      "conversions": 25.0
+    },
+    {
+      "date": "2026-03-22",
+      "spend": 328.988219,
+      "impressions": 782,
+      "clicks": 54,
+      "conversions": 29.0
+    },
+    {
+      "date": "2026-03-23",
+      "spend": 332.377762,
+      "impressions": 677,
+      "clicks": 54,
+      "conversions": 24.0
+    },
+    {
+      "date": "2026-03-24",
+      "spend": 328.976448,
+      "impressions": 761,
+      "clicks": 72,
+      "conversions": 43.0
+    },
+    {
+      "date": "2026-03-25",
+      "spend": 328.949844,
+      "impressions": 722,
+      "clicks": 73,
+      "conversions": 42.0
+    },
+    {
+      "date": "2026-03-26",
+      "spend": 287.346815,
+      "impressions": 660,
+      "clicks": 66,
+      "conversions": 42.0
+    },
+    {
+      "date": "2026-03-27",
+      "spend": 181.013098,
+      "impressions": 536,
+      "clicks": 46,
+      "conversions": 34.0
+    },
+    {
+      "date": "2026-03-28",
+      "spend": 227.938794,
+      "impressions": 644,
+      "clicks": 45,
+      "conversions": 26.0
+    },
+    {
+      "date": "2026-03-29",
+      "spend": 335.466562,
+      "impressions": 677,
+      "clicks": 59,
+      "conversions": 37.0
+    },
+    {
+      "date": "2026-03-30",
+      "spend": 331.190306,
+      "impressions": 705,
+      "clicks": 79,
+      "conversions": 37.0
+    },
+    {
+      "date": "2026-03-31",
+      "spend": 338.815182,
+      "impressions": 752,
+      "clicks": 97,
+      "conversions": 1.016498
+    },
+    {
+      "date": "2026-04-01",
+      "spend": 247.231933,
+      "impressions": 1071,
+      "clicks": 86,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-02",
+      "spend": 250.559301,
+      "impressions": 975,
+      "clicks": 79,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-03",
+      "spend": 328.983997,
+      "impressions": 965,
+      "clicks": 76,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-04",
+      "spend": 256.551912,
+      "impressions": 727,
+      "clicks": 52,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-05",
+      "spend": 0.67,
+      "impressions": 11,
+      "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-06",
+      "spend": 2.63,
+      "impressions": 11,
+      "clicks": 2,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-07",
+      "spend": 0.69,
+      "impressions": 20,
+      "clicks": 2,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-08",
+      "spend": 0.54,
+      "impressions": 7,
+      "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-09",
+      "spend": 4.5,
+      "impressions": 29,
+      "clicks": 5,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-10",
+      "spend": 8.12,
+      "impressions": 24,
+      "clicks": 4,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-11",
+      "spend": 7.585738,
+      "impressions": 17,
+      "clicks": 4,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-12",
+      "spend": 0.62,
+      "impressions": 11,
+      "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-13",
+      "spend": 4.549992,
+      "impressions": 30,
+      "clicks": 5,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-14",
+      "spend": 0.74,
+      "impressions": 23,
+      "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-15",
+      "spend": 3.72,
+      "impressions": 36,
+      "clicks": 5,
+      "conversions": 1.0
+    },
+    {
+      "date": "2026-04-16",
+      "spend": 4.03,
+      "impressions": 23,
+      "clicks": 3,
+      "conversions": 1.25
+    },
+    {
+      "date": "2026-04-17",
+      "spend": 2.38,
+      "impressions": 29,
+      "clicks": 4,
+      "conversions": 1.0
+    },
+    {
+      "date": "2026-04-18",
+      "spend": 33.893975,
+      "impressions": 163,
+      "clicks": 16,
+      "conversions": 0.0
+    },
+    {
+      "date": "2026-04-19",
+      "spend": 71.078876,
+      "impressions": 359,
+      "clicks": 23,
+      "conversions": 2.0
+    },
+    {
+      "date": "2026-04-20",
+      "spend": 187.224438,
+      "impressions": 694,
+      "clicks": 52,
+      "conversions": 5.233502
+    },
+    {
+      "date": "2026-04-21",
+      "spend": 26.87864,
+      "impressions": 321,
+      "clicks": 16,
+      "conversions": 1.25
+    },
+    {
+      "date": "2026-04-22",
+      "spend": 224.14139,
+      "impressions": 804,
+      "clicks": 46,
+      "conversions": 11.0
+    },
+    {
+      "date": "2026-04-23",
+      "spend": 323.747266,
+      "impressions": 1221,
+      "clicks": 66,
+      "conversions": 30.0
+    },
+    {
+      "date": "2026-04-24",
+      "spend": 257.665297,
+      "impressions": 940,
+      "clicks": 57,
+      "conversions": 33.0
+    },
+    {
+      "date": "2026-04-25",
+      "spend": 211.186941,
+      "impressions": 678,
+      "clicks": 28,
+      "conversions": 9.0
+    },
+    {
+      "date": "2026-04-26",
+      "spend": 327.914184,
+      "impressions": 626,
+      "clicks": 44,
+      "conversions": 21.0
+    },
+    {
+      "date": "2026-04-27",
+      "spend": 332.143561,
+      "impressions": 627,
+      "clicks": 44,
+      "conversions": 20.0
+    },
+    {
+      "date": "2026-04-28",
+      "spend": 0.0,
+      "impressions": 32,
+      "clicks": 0,
       "conversions": 0.0
     }
   ],
@@ -2576,21 +2583,21 @@
       "id": "19638300165",
       "name": "PolicyEngine: US",
       "status": "ENABLED",
-      "spend": 25685.479524,
-      "impressions": 119658,
-      "clicks": 4328,
-      "conversions": 939.15303,
-      "ctr": 0.03616975045546474
+      "spend": 27606.036335,
+      "impressions": 63336,
+      "clicks": 4003,
+      "conversions": 1214.627119,
+      "ctr": 0.06320260199570545
     },
     {
       "id": "19645727936",
       "name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
-      "spend": 1402.881804,
-      "impressions": 3425,
-      "clicks": 307,
-      "conversions": 170.369465,
-      "ctr": 0.08963503649635036
+      "spend": 5204.82377,
+      "impressions": 11592,
+      "clicks": 1014,
+      "conversions": 130.869465,
+      "ctr": 0.08747412008281573
     }
   ],
   "ad_groups": [
@@ -2599,29 +2606,29 @@
       "name": "Homepage (non-US)",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 1393.921804,
-      "impressions": 3298,
-      "clicks": 294,
-      "conversions": 148.603065
+      "spend": 1944.171849,
+      "impressions": 2577,
+      "clicks": 312,
+      "conversions": 94.103065
     },
     {
       "id": "143114843741",
       "name": "Child Tax Credit",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 6863.294752,
-      "impressions": 34819,
-      "clicks": 963,
-      "conversions": 201.227759
+      "spend": 3520.518152,
+      "impressions": 9100,
+      "clicks": 357,
+      "conversions": 51.789686
     },
     {
       "id": "145807748316",
       "name": "Homepage (US only)",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 18.099248,
-      "impressions": 19,
-      "clicks": 1,
+      "spend": 0.0,
+      "impressions": 11,
+      "clicks": 0,
       "conversions": 0.0
     },
     {
@@ -2629,19 +2636,19 @@
       "name": "Oregon Earned Income Tax Credit",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 17627.109891,
-      "impressions": 82924,
-      "clicks": 3033,
-      "conversions": 521.804338
+      "spend": 7868.252437,
+      "impressions": 23649,
+      "clicks": 1059,
+      "conversions": 177.217301
     },
     {
       "id": "149834826441",
       "name": "Benefit cliffs",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 8.96,
-      "impressions": 127,
-      "clicks": 13,
+      "spend": 14.85,
+      "impressions": 124,
+      "clicks": 15,
       "conversions": 21.7664
     },
     {
@@ -2650,7 +2657,7 @@
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
       "spend": 0.0,
-      "impressions": 1,
+      "impressions": 0,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -2659,20 +2666,20 @@
       "name": "Benefit cliffs (US)",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 440.502647,
-      "impressions": 680,
-      "clicks": 144,
-      "conversions": 134.00463
+      "spend": 358.303273,
+      "impressions": 624,
+      "clicks": 128,
+      "conversions": 105.001153
     },
     {
       "id": "154299391828",
       "name": "US basic income",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 662.402986,
-      "impressions": 1111,
-      "clicks": 181,
-      "conversions": 82.116303
+      "spend": 358.724943,
+      "impressions": 615,
+      "clicks": 152,
+      "conversions": 53.118979
     },
     {
       "id": "189084931821",
@@ -2680,9 +2687,19 @@
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
       "spend": 0.0,
-      "impressions": 0,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0
+    },
+    {
+      "id": "190473930381",
+      "name": "State Taxes",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 1833.884104,
+      "impressions": 2476,
+      "clicks": 230,
+      "conversions": 131.0
     },
     {
       "id": "190872374783",
@@ -2709,10 +2726,10 @@
       "name": "Charitable Giving Calculator",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 12.79,
-      "impressions": 5,
-      "clicks": 1,
-      "conversions": 0.0
+      "spend": 942.116255,
+      "impressions": 438,
+      "clicks": 64,
+      "conversions": 4.0
     },
     {
       "id": "192876384195",
@@ -2732,6 +2749,26 @@
       "spend": 0.0,
       "impressions": 0,
       "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "193577950037",
+      "name": "Marriage Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 5178.005593,
+      "impressions": 13707,
+      "clicks": 1039,
+      "conversions": 488.0
+    },
+    {
+      "id": "193592253076",
+      "name": "Legislation / Reform",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 66.648973,
+      "impressions": 603,
+      "clicks": 17,
       "conversions": 0.0
     },
     {
@@ -2770,7 +2807,7 @@
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
       "spend": 0.0,
-      "impressions": 0,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -2799,29 +2836,39 @@
       "name": "50 State Tax Calculator",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 61.28,
-      "impressions": 97,
-      "clicks": 5,
+      "spend": 3785.618672,
+      "impressions": 5792,
+      "clicks": 382,
       "conversions": 0.0
+    },
+    {
+      "id": "194009163096",
+      "name": "ACA / Health Insurance",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 1834.671744,
+      "impressions": 1951,
+      "clicks": 242,
+      "conversions": 123.0
     },
     {
       "id": "194886175569",
       "name": "Scottish Budget Calculator",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
+      "spend": 1728.321404,
+      "impressions": 5545,
+      "clicks": 418,
+      "conversions": 10.0
     },
     {
       "id": "194886182609",
       "name": "UK Budget Calculator",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
+      "spend": 1185.757552,
+      "impressions": 2210,
+      "clicks": 216,
       "conversions": 0.0
     },
     {
@@ -2849,29 +2896,49 @@
       "name": "UK Policy Calculator - Trusted by Government",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
+      "spend": 260.677957,
+      "impressions": 1021,
+      "clicks": 48,
+      "conversions": 5.0
     },
     {
       "id": "197796308528",
       "name": "Two-Child Limit Calculator",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
+      "spend": 71.045008,
+      "impressions": 111,
+      "clicks": 5,
       "conversions": 0.0
+    },
+    {
+      "id": "199128564608",
+      "name": "Brand",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 200.974655,
+      "impressions": 542,
+      "clicks": 143,
+      "conversions": 58.5
+    },
+    {
+      "id": "200292940264",
+      "name": "Research & Tools",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 974.410393,
+      "impressions": 3223,
+      "clicks": 123,
+      "conversions": 23.0
     },
     {
       "id": "200626899028",
       "name": "SALT AMT Calculator",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 2,
-      "clicks": 0,
+      "spend": 683.907141,
+      "impressions": 604,
+      "clicks": 67,
       "conversions": 0.0
     },
     {
@@ -2915,10 +2982,10 @@
         "Calculate The Impact That Child Tax Credit Would Have On Your Household Income",
         "What Is Child Tax Credit And How Much Is It Worth? Find Out Now"
       ],
-      "spend": 6863.294752,
-      "impressions": 34819,
-      "clicks": 963,
-      "conversions": 201.227759
+      "spend": 3520.518152,
+      "impressions": 9100,
+      "clicks": 357,
+      "conversions": 51.789686
     },
     {
       "ad_id": "646959476058",
@@ -2953,9 +3020,9 @@
         "Compute The Impact Of Policy Reforms. A Tool To Assist With Policy And Economic Research",
         "From Idea To Impact: Score Your Policy Reform On PolicyEngine's Policy Calculator"
       ],
-      "spend": 18.099248,
-      "impressions": 19,
-      "clicks": 1,
+      "spend": 0.0,
+      "impressions": 11,
+      "clicks": 0,
       "conversions": 0.0
     },
     {
@@ -2990,10 +3057,10 @@
         "Calculate The Impact That Earned Income Tax Credit Would Have On Your Household Income",
         "The Federal Earned Income Tax Credit Is Accrued By Working And It Lowers Tax Liability"
       ],
-      "spend": 17627.109891,
-      "impressions": 82924,
-      "clicks": 3033,
-      "conversions": 521.804338
+      "spend": 7868.252437,
+      "impressions": 23649,
+      "clicks": 1059,
+      "conversions": 177.217301
     },
     {
       "ad_id": "685617078140",
@@ -3027,7 +3094,7 @@
         "Calculate Impact Of Different Forms Of Basic Income, From UBI To Means-Dependent Payments"
       ],
       "spend": 0.0,
-      "impressions": 1,
+      "impressions": 0,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -3062,10 +3129,10 @@
         "Use Our Policy Calculator To Avoid The Benefits Cliff With Your Reforms",
         "Find Out What Welfare Cliffs Are And How You Can Avoid Them In Your Policy Reforms"
       ],
-      "spend": 440.502647,
-      "impressions": 680,
-      "clicks": 144,
-      "conversions": 134.00463
+      "spend": 358.303273,
+      "impressions": 624,
+      "clicks": 128,
+      "conversions": 105.001153
     },
     {
       "ad_id": "647076605021",
@@ -3099,10 +3166,10 @@
         "Calculate The Impact That Universal Basic Income Would Have On You And The Country",
         "Calculate Impact Of Different Forms Of Basic Income, From UBI To Means-Dependent Payments"
       ],
-      "spend": 662.402986,
-      "impressions": 1111,
-      "clicks": 181,
-      "conversions": 82.116303
+      "spend": 358.724943,
+      "impressions": 615,
+      "clicks": 152,
+      "conversions": 53.118979
     },
     {
       "ad_id": "794296537110",
@@ -3135,7 +3202,7 @@
         "Transparent, open-source tax analysis trusted by academic and policy institutions."
       ],
       "spend": 0.0,
-      "impressions": 0,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -3173,6 +3240,44 @@
       "impressions": 0,
       "clicks": 0,
       "conversions": 0.0
+    },
+    {
+      "ad_id": "798034008141",
+      "ad_group_id": "190473930381",
+      "ad_group_name": "State Taxes",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/state-legislative-tracker"
+      ],
+      "headlines": [
+        "State Tax Calculator",
+        "State Income Tax Calc",
+        "All 50 States Covered",
+        "State EITC Calculator",
+        "State Tax Credit Calc",
+        "State Tax Changes Impact",
+        "Free State Tax Calculator",
+        "State Tax Comparison",
+        "Your State Tax Impact",
+        "State Benefit Calculator",
+        "State Tax Reform Impact",
+        "State Child Tax Credit",
+        "Calculate State Taxes Free",
+        "State Tax Policy Tool",
+        "50 State Coverage"
+      ],
+      "descriptions": [
+        "Calculate your state taxes and benefits. All 50 states covered, free from PolicyEngine.",
+        "See how state tax changes affect your household. Covers taxes, credits, and benefits.",
+        "Free state tax and benefit calculator. EITC, child credits, and more across all 50 states.",
+        "Model state tax reforms and see your household impact. Open source and free to use."
+      ],
+      "spend": 1833.884104,
+      "impressions": 2476,
+      "clicks": 230,
+      "conversions": 131.0
     },
     {
       "ad_id": "794394819737",
@@ -3307,10 +3412,10 @@
         "GiveCalc shows how much your donation costs after tax deductions. Free calculator.",
         "PolicyEngine's giving calculator helps you understand the tax benefits of your donations."
       ],
-      "spend": 12.79,
-      "impressions": 5,
-      "clicks": 1,
-      "conversions": 0.0
+      "spend": 942.116255,
+      "impressions": 438,
+      "clicks": 64,
+      "conversions": 4.0
     },
     {
       "ad_id": "794284794678",
@@ -3416,6 +3521,82 @@
       "conversions": 0.0
     },
     {
+      "ad_id": "798032557869",
+      "ad_group_id": "193577950037",
+      "ad_group_name": "Marriage Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/marriage"
+      ],
+      "headlines": [
+        "Marriage Tax Calculator",
+        "Marriage Penalty Calculator",
+        "Should You File Jointly?",
+        "Marriage Tax Impact",
+        "Married vs Single Taxes",
+        "Marriage Bonus Calculator",
+        "Your Marriage Tax Impact",
+        "How Marriage Affects Taxes",
+        "Couples Tax Calculator",
+        "Free Marriage Calculator",
+        "See Your Marriage Impact",
+        "Marriage & Benefits Impact",
+        "Taxes + Benefits Combined",
+        "Filing Jointly Calculator",
+        "Marriage Penalty Check"
+      ],
+      "descriptions": [
+        "See how marriage affects your taxes and benefits combined. The full picture, free.",
+        "Free marriage penalty and bonus calculator. Covers federal, state taxes, and all benefits.",
+        "Should you file jointly or separately? See the full impact on taxes and benefits.",
+        "Calculate your marriage penalty or bonus across taxes and benefits. Free on PolicyEngine."
+      ],
+      "spend": 5178.005593,
+      "impressions": 13707,
+      "clicks": 1039,
+      "conversions": 488.0
+    },
+    {
+      "ad_id": "798014647346",
+      "ad_group_id": "193592253076",
+      "ad_group_name": "Legislation / Reform",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/research"
+      ],
+      "headlines": [
+        "Calculate Your Tax Bill Impact",
+        "Tax Reform Calculator",
+        "Model the New Tax Bill",
+        "See Your Tax Bill Impact",
+        "Tax Changes 2026 Calculator",
+        "Will Your Taxes Go Up?",
+        "OBBBA Impact Calculator",
+        "Reconciliation Bill Calc",
+        "TCJA Extension Calculator",
+        "Personalized Tax Impact",
+        "New Tax Law Calculator",
+        "Tax Reform \u2014 Your Household",
+        "Policy Reform Calculator",
+        "See Your Reform Impact",
+        "Create Your Own Policy Reform"
+      ],
+      "descriptions": [
+        "Enter your household details and see how the new tax bill affects your family. Free.",
+        "The only personalized tax reform calculator. See household and society-wide effects.",
+        "How will tax changes affect you? Calculate your impact from the latest legislation.",
+        "Model the tax bill yourself and see your household's bottom line. No waiting."
+      ],
+      "spend": 66.648973,
+      "impressions": 603,
+      "clicks": 17,
+      "conversions": 0.0
+    },
+    {
       "ad_id": "794391805121",
       "ad_group_id": "193620990193",
       "ad_group_name": "ACA Premium Tax Credit Calculator",
@@ -3510,10 +3691,48 @@
         "PolicyEngine covers every US state. Compare tax burdens across different locations.",
         "State income tax calculator with federal taxes included. Instant, accurate results."
       ],
-      "spend": 61.28,
-      "impressions": 97,
-      "clicks": 5,
+      "spend": 3785.618672,
+      "impressions": 5792,
+      "clicks": 382,
       "conversions": 0.0
+    },
+    {
+      "ad_id": "798144109850",
+      "ad_group_id": "194009163096",
+      "ad_group_name": "ACA / Health Insurance",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/aca-reforms-calculator"
+      ],
+      "headlines": [
+        "ACA Reform Calculator",
+        "Premium Tax Credit Calc",
+        "Health Insurance Subsidies",
+        "ACA Subsidy Calculator",
+        "See Your ACA Impact",
+        "Marketplace Subsidy Calc",
+        "ACA Cliff Calculator",
+        "Free ACA Calculator",
+        "Health Insurance Tax Credit",
+        "ACA Premium Calculator",
+        "Model ACA Reforms",
+        "Your ACA Subsidy Impact",
+        "Enhanced PTC Calculator",
+        "ACA Changes Calculator",
+        "Affordable Care Act Calc"
+      ],
+      "descriptions": [
+        "Calculate your premium tax credit under current law and model any ACA reform scenario.",
+        "Free ACA calculator from PolicyEngine. See how health insurance subsidies affect you.",
+        "How would ACA changes affect your premiums? Enter your details and find out instantly.",
+        "Model enhanced premium tax credits, subsidy cliffs, and ACA reforms. Free and open source."
+      ],
+      "spend": 1834.671744,
+      "impressions": 1951,
+      "clicks": 242,
+      "conversions": 123.0
     },
     {
       "ad_id": "794316760921",
@@ -3621,6 +3840,59 @@
       "conversions": 0.0
     },
     {
+      "ad_id": "797901961389",
+      "ad_group_id": "199128564608",
+      "ad_group_name": "Brand",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org"
+      ],
+      "headlines": [
+        "PolicyEngine",
+        "Open Source Policy Analysis",
+        "Free Tax & Benefits Calculator",
+        "Model Any Policy Reform",
+        "AI-Powered Policy Analysis",
+        "Microsimulation Platform",
+        "See Your Full Tax Picture",
+        "Taxes + Benefits Together",
+        "Used by Researchers & Gov",
+        "Open Source & Free",
+        "PolicyEngine Calculator",
+        "Tax & Benefit Microsimulation",
+        "Try PolicyEngine For Free",
+        "All 50 State Tax Coverage",
+        "Trusted Policy Analysis Tool"
+      ],
+      "descriptions": [
+        "Free, open-source tax & benefit calculator. See the full picture: federal/state, benefits.",
+        "Model any policy reform and see who wins and loses. Used by think tanks and government.",
+        "The only open-source microsimulation covering taxes and benefits across all 50 states.",
+        "Calculate taxes and benefits under current law, and any policy reform."
+      ],
+      "spend": 200.974655,
+      "impressions": 542,
+      "clicks": 143,
+      "conversions": 58.5
+    },
+    {
+      "ad_id": "797902300068",
+      "ad_group_id": "200292940264",
+      "ad_group_name": "Research & Tools",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [],
+      "headlines": [],
+      "descriptions": [],
+      "spend": 974.410393,
+      "impressions": 3223,
+      "clicks": 123,
+      "conversions": 23.0
+    },
+    {
       "ad_id": "794284794621",
       "ad_group_id": "200626899028",
       "ad_group_name": "SALT AMT Calculator",
@@ -3648,9 +3920,9 @@
         "PolicyEngine's SALT-AMT calculator shows your tax under different scenarios. Free tool.",
         "See how state and local tax deduction limits impact your federal taxes. Instant analysis."
       ],
-      "spend": 0.0,
-      "impressions": 2,
-      "clicks": 0,
+      "spend": 683.907141,
+      "impressions": 604,
+      "clicks": 67,
       "conversions": 0.0
     },
     {
@@ -3686,10 +3958,10 @@
         "Compute The Impact Of Policy Reforms. A Tool To Assist With Policy And Economic Research",
         "From Idea To Impact: Score Your Policy Reform On PolicyEngine's Policy Calculator"
       ],
-      "spend": 1393.921804,
-      "impressions": 3298,
-      "clicks": 294,
-      "conversions": 148.603065
+      "spend": 1944.171849,
+      "impressions": 2577,
+      "clicks": 312,
+      "conversions": 94.103065
     },
     {
       "ad_id": "648807511129",
@@ -3722,9 +3994,9 @@
         "Use Our Policy Calculator To Avoid The Benefits Cliff With Your Reforms",
         "Find Out What Welfare Cliffs Are And How You Can Avoid Them In Your Policy Reforms"
       ],
-      "spend": 8.96,
-      "impressions": 127,
-      "clicks": 13,
+      "spend": 14.85,
+      "impressions": 124,
+      "clicks": 15,
       "conversions": 21.7664
     },
     {
@@ -3767,7 +4039,7 @@
       "campaign_name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
       "final_urls": [
-        "https://policyengine.org/uk/household"
+        "https://policyengine.org/uk"
       ],
       "headlines": [
         "Universal Credit Calculator",
@@ -3819,7 +4091,7 @@
         "Nuffield-funded local analysis. See poverty and income impacts by region."
       ],
       "spend": 0.0,
-      "impressions": 0,
+      "impressions": 4,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -3831,7 +4103,7 @@
       "campaign_name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
       "final_urls": [
-        "https://policyengine.org/uk/policy"
+        "https://policyengine.org/uk"
       ],
       "headlines": [
         "UK Tax-Benefit Model",
@@ -3866,7 +4138,7 @@
       "campaign_name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
       "final_urls": [
-        "https://policyengine.org/uk/household"
+        "https://policyengine.org/uk/scotland-income-tax-reform"
       ],
       "headlines": [
         "Scottish Budget Calculator",
@@ -3886,10 +4158,10 @@
         "PolicyEngine's Scottish calculator shows your income tax and benefits impact.",
         "See how Scottish tax rates compare to the rest of the UK. Personal impact calculator."
       ],
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
+      "spend": 1728.321404,
+      "impressions": 5545,
+      "clicks": 418,
+      "conversions": 10.0
     },
     {
       "ad_id": "794391659165",
@@ -3899,7 +4171,7 @@
       "campaign_name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
       "final_urls": [
-        "https://policyengine.org/uk/household"
+        "https://policyengine.org/uk"
       ],
       "headlines": [
         "UK Budget Calculator",
@@ -3919,9 +4191,9 @@
         "PolicyEngine's Budget calculator shows the personal impact of tax and benefit changes.",
         "See how the Chancellor's budget affects you. Free, instant, nonpartisan analysis."
       ],
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
+      "spend": 1185.757552,
+      "impressions": 2210,
+      "clicks": 216,
       "conversions": 0.0
     },
     {
@@ -3932,7 +4204,7 @@
       "campaign_name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
       "final_urls": [
-        "https://policyengine.org/uk/household"
+        "https://policyengine.org/uk"
       ],
       "headlines": [
         "UK Policy Calculator",
@@ -3952,10 +4224,10 @@
         "Free tax and benefit calculator piloted by HM Treasury. See how policies affect you.",
         "The UK's most accessible microsimulation model. Used by government and researchers."
       ],
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
+      "spend": 260.677957,
+      "impressions": 1021,
+      "clicks": 48,
+      "conversions": 5.0
     },
     {
       "ad_id": "794391819560",
@@ -3965,7 +4237,7 @@
       "campaign_name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
       "final_urls": [
-        "https://policyengine.org/uk/household"
+        "https://policyengine.org/uk/two-child-limit-comparison"
       ],
       "headlines": [
         "Two-Child Limit Calculator",
@@ -3984,9 +4256,9 @@
         "PolicyEngine estimates two-child limit impacts on poverty and household incomes.",
         "See how removing the two-child limit would affect UK families. Free calculator."
       ],
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
+      "spend": 71.045008,
+      "impressions": 111,
+      "clicks": 5,
       "conversions": 0.0
     }
   ],
@@ -3995,451 +4267,451 @@
       "text": "tax calculator",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
-      "spend": 10232.546458,
-      "impressions": 44355,
-      "clicks": 1642,
-      "ctr": 0.03701950174726638
-    },
-    {
-      "text": "tax credit",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 6579.318336,
-      "impressions": 33759,
-      "clicks": 1255,
-      "ctr": 0.03717527177937735
-    },
-    {
-      "text": "child tax credit",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 5780.146751,
-      "impressions": 31470,
-      "clicks": 857,
-      "ctr": 0.02723228471560216
-    },
-    {
-      "text": "tax us",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 1064.388001,
-      "impressions": 3093,
-      "clicks": 102,
-      "ctr": 0.03297769156159069
-    },
-    {
-      "text": "earned income",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 811.645097,
-      "impressions": 4782,
-      "clicks": 135,
-      "ctr": 0.028230865746549563
-    },
-    {
-      "text": "economic policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 563.163811,
-      "impressions": 423,
-      "clicks": 39,
-      "ctr": 0.09219858156028368
-    },
-    {
-      "text": "policyengine",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 493.008744,
-      "impressions": 634,
-      "clicks": 167,
-      "ctr": 0.2634069400630915
-    },
-    {
-      "text": "policyengine",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 440.502647,
-      "impressions": 680,
-      "clicks": 144,
-      "ctr": 0.21176470588235294
-    },
-    {
-      "text": "public policy analysis",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 328.87,
-      "impressions": 482,
-      "clicks": 37,
-      "ctr": 0.07676348547717843
-    },
-    {
-      "text": "UBI",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 163.804242,
-      "impressions": 447,
-      "clicks": 13,
-      "ctr": 0.029082774049217
-    },
-    {
-      "text": "PolicyEngine",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 146.492902,
-      "impressions": 469,
-      "clicks": 110,
-      "ctr": 0.2345415778251599
-    },
-    {
-      "text": "introduction to public policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 133.674637,
-      "impressions": 889,
-      "clicks": 53,
-      "ctr": 0.05961754780652419
-    },
-    {
-      "text": "public policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 93.968977,
-      "impressions": 390,
-      "clicks": 28,
-      "ctr": 0.07179487179487179
-    },
-    {
-      "text": "fiscal policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 61.83,
-      "impressions": 40,
-      "clicks": 6,
-      "ctr": 0.15
-    },
-    {
-      "text": "public policy making",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 44.065287,
-      "impressions": 458,
-      "clicks": 14,
-      "ctr": 0.03056768558951965
-    },
-    {
-      "text": "state income tax calculator",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 41.82,
-      "impressions": 49,
-      "clicks": 3,
-      "ctr": 0.061224489795918366
-    },
-    {
-      "text": "policy research",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 21.85619,
-      "impressions": 82,
-      "clicks": 7,
-      "ctr": 0.08536585365853659
-    },
-    {
-      "text": "Public policy research",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 18.099248,
-      "impressions": 10,
-      "clicks": 1,
-      "ctr": 0.1
-    },
-    {
-      "text": "how much is my donation worth",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 12.79,
-      "impressions": 3,
-      "clicks": 1,
-      "ctr": 0.3333333333333333
+      "spend": 7444.578628,
+      "impressions": 22125,
+      "clicks": 997,
+      "ctr": 0.04506214689265537
     },
     {
       "text": "state tax calculator",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
-      "spend": 10.66,
-      "impressions": 40,
-      "clicks": 1,
-      "ctr": 0.025
+      "spend": 3358.598384,
+      "impressions": 5253,
+      "clicks": 344,
+      "ctr": 0.06548638873024938
     },
     {
-      "text": "tax on us",
+      "text": "child tax credit",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
-      "spend": 10.42,
-      "impressions": 81,
-      "clicks": 2,
-      "ctr": 0.024691358024691357
+      "spend": 2606.730151,
+      "impressions": 7407,
+      "clicks": 280,
+      "ctr": 0.03780207911435129
+    },
+    {
+      "text": "filing jointly vs separately",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 1933.418962,
+      "impressions": 5906,
+      "clicks": 387,
+      "ctr": 0.06552658313579411
+    },
+    {
+      "text": "scottish tax calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 1638.839151,
+      "impressions": 5008,
+      "clicks": 388,
+      "ctr": 0.07747603833865814
+    },
+    {
+      "text": "marriage tax calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 1482.445681,
+      "impressions": 3675,
+      "clicks": 309,
+      "ctr": 0.08408163265306122
+    },
+    {
+      "text": "premium tax credit calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 927.797601,
+      "impressions": 796,
+      "clicks": 123,
+      "ctr": 0.15452261306532664
+    },
+    {
+      "text": "tax us",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 913.788001,
+      "impressions": 1686,
+      "clicks": 77,
+      "ctr": 0.045670225385527875
+    },
+    {
+      "text": "economic policy",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 854.893029,
+      "impressions": 587,
+      "clicks": 58,
+      "ctr": 0.09880749574105621
+    },
+    {
+      "text": "state tax comparison",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 743.486807,
+      "impressions": 763,
+      "clicks": 82,
+      "ctr": 0.10747051114023591
+    },
+    {
+      "text": "donation tax deduction calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 738.661128,
+      "impressions": 333,
+      "clicks": 50,
+      "ctr": 0.15015015015015015
+    },
+    {
+      "text": "married vs single tax calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 731.19115,
+      "impressions": 1140,
+      "clicks": 155,
+      "ctr": 0.13596491228070176
+    },
+    {
+      "text": "public policy analysis",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 651.882958,
+      "impressions": 897,
+      "clicks": 74,
+      "ctr": 0.08249721293199554
+    },
+    {
+      "text": "uk budget calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 602.571969,
+      "impressions": 1000,
+      "clicks": 86,
+      "ctr": 0.086
+    },
+    {
+      "text": "state income tax calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 585.88023,
+      "impressions": 973,
+      "clicks": 77,
+      "ctr": 0.07913669064748201
+    },
+    {
+      "text": "budget impact calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 583.185583,
+      "impressions": 1210,
+      "clicks": 130,
+      "ctr": 0.10743801652892562
+    },
+    {
+      "text": "state tax calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 491.437067,
+      "impressions": 683,
+      "clicks": 69,
+      "ctr": 0.10102489019033675
+    },
+    {
+      "text": "how does marriage affect my taxes",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 461.521711,
+      "impressions": 1572,
+      "clicks": 89,
+      "ctr": 0.056615776081424936
+    },
+    {
+      "text": "tax credit",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 383.503809,
+      "impressions": 1455,
+      "clicks": 58,
+      "ctr": 0.03986254295532646
     },
     {
       "text": "policyengine",
       "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 358.303273,
+      "impressions": 624,
+      "clicks": 128,
+      "ctr": 0.20512820512820512
+    },
+    {
+      "text": "policyengine",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 353.134943,
+      "impressions": 572,
+      "clicks": 151,
+      "ctr": 0.263986013986014
+    },
+    {
+      "text": "health insurance tax credit",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 353.133953,
+      "impressions": 486,
+      "clicks": 43,
+      "ctr": 0.08847736625514403
+    },
+    {
+      "text": "state income tax calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 312.927078,
+      "impressions": 396,
+      "clicks": 28,
+      "ctr": 0.0707070707070707
+    },
+    {
+      "text": "state local tax deduction",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 306.40221,
+      "impressions": 261,
+      "clicks": 28,
+      "ctr": 0.10727969348659004
+    },
+    {
+      "text": "health insurance subsidy calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 295.01,
+      "impressions": 298,
+      "clicks": 37,
+      "ctr": 0.12416107382550336
+    },
+    {
+      "text": "marriage tax impact",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 254.891929,
+      "impressions": 536,
+      "clicks": 37,
+      "ctr": 0.06902985074626866
+    },
+    {
+      "text": "couples tax calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 233.847978,
+      "impressions": 759,
+      "clicks": 47,
+      "ctr": 0.061923583662714096
+    },
+    {
+      "text": "uk tax calculator",
+      "match_type": "BROAD",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 8.96,
-      "impressions": 124,
-      "clicks": 13,
-      "ctr": 0.10483870967741936
+      "spend": 209.997957,
+      "impressions": 749,
+      "clicks": 38,
+      "ctr": 0.050734312416555405
+    },
+    {
+      "text": "fiscal policy",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 202.593521,
+      "impressions": 147,
+      "clicks": 22,
+      "ctr": 0.14965986394557823
+    },
+    {
+      "text": "salt cap calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 183.894996,
+      "impressions": 118,
+      "clicks": 18,
+      "ctr": 0.15254237288135594
+    },
+    {
+      "text": "PolicyEngine",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 177.277483,
+      "impressions": 605,
+      "clicks": 137,
+      "ctr": 0.22644628099173553
+    },
+    {
+      "text": "charitable contribution calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 160.65,
+      "impressions": 92,
+      "clicks": 11,
+      "ctr": 0.11956521739130435
+    },
+    {
+      "text": "amt calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 142.74,
+      "impressions": 145,
+      "clicks": 14,
+      "ctr": 0.09655172413793103
+    },
+    {
+      "text": "policy engine",
+      "match_type": "EXACT",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 129.064213,
+      "impressions": 369,
+      "clicks": 96,
+      "ctr": 0.2601626016260163
     },
     {
       "text": "compare state taxes",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
-      "spend": 8.8,
-      "impressions": 8,
-      "clicks": 1,
+      "spend": 106.13321,
+      "impressions": 132,
+      "clicks": 9,
+      "ctr": 0.06818181818181818
+    },
+    {
+      "text": "enhanced premium tax credit",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 88.397376,
+      "impressions": 187,
+      "clicks": 15,
+      "ctr": 0.08021390374331551
+    },
+    {
+      "text": "Obamacare calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 72.384709,
+      "impressions": 55,
+      "clicks": 7,
+      "ctr": 0.12727272727272726
+    },
+    {
+      "text": "policyengine",
+      "match_type": "EXACT",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 71.910442,
+      "impressions": 172,
+      "clicks": 47,
+      "ctr": 0.27325581395348836
+    },
+    {
+      "text": "two child benefit limit",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 71.045008,
+      "impressions": 110,
+      "clicks": 5,
+      "ctr": 0.045454545454545456
+    },
+    {
+      "text": "tax bill calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 57.728973,
+      "impressions": 475,
+      "clicks": 15,
+      "ctr": 0.031578947368421054
+    },
+    {
+      "text": "public policy",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 53.978977,
+      "impressions": 242,
+      "clicks": 19,
+      "ctr": 0.07851239669421488
+    },
+    {
+      "text": "scottish income tax rates",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 48.552253,
+      "impressions": 346,
+      "clicks": 18,
+      "ctr": 0.05202312138728324
+    },
+    {
+      "text": "salt deduction calculator",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 45.87,
+      "impressions": 73,
+      "clicks": 6,
+      "ctr": 0.0821917808219178
+    },
+    {
+      "text": "ACA calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 45.210075,
+      "impressions": 44,
+      "clicks": 7,
+      "ctr": 0.1590909090909091
+    },
+    {
+      "text": "how much is my donation worth",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 42.805127,
+      "impressions": 11,
+      "clicks": 3,
+      "ctr": 0.2727272727272727
+    },
+    {
+      "text": "earned income",
+      "match_type": "BROAD",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 40.17,
+      "impressions": 62,
+      "clicks": 4,
+      "ctr": 0.06451612903225806
+    },
+    {
+      "text": "salary sacrifice calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 38.76,
+      "impressions": 160,
+      "clicks": 9,
+      "ctr": 0.05625
+    },
+    {
+      "text": "marriage penalty calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 35.88,
+      "impressions": 23,
+      "clicks": 6,
+      "ctr": 0.2608695652173913
+    },
+    {
+      "text": "marriage benefits calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 35.488182,
+      "impressions": 62,
+      "clicks": 7,
+      "ctr": 0.11290322580645161
+    },
+    {
+      "text": "marketplace subsidy calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 29.64803,
+      "impressions": 56,
+      "clicks": 7,
       "ctr": 0.125
-    },
-    {
-      "text": "dependent credit",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 8.34,
-      "impressions": 136,
-      "clicks": 2,
-      "ctr": 0.014705882352941176
-    },
-    {
-      "text": "income us",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 5.59,
-      "impressions": 21,
-      "clicks": 1,
-      "ctr": 0.047619047619047616
-    },
-    {
-      "text": "how much is the earned income tax credit",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 3.6,
-      "impressions": 27,
-      "clicks": 1,
-      "ctr": 0.037037037037037035
-    },
-    {
-      "text": "tax reform",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 3,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "economic policy institute",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 3,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "public policy research",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 33,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "fiscal and monetary policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "fiscal policy definition",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "economic development policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "top public policy schools",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "master of public affairs",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "masters in health policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "masters in public policy and administration",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "health public policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "governance and public policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "phd health policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "online masters in public policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "public policy and governance",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "global public policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "public policy and administration",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 3,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "master of public policy and management",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "public policy studies",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "public policy and politics",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "economic nationalism",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "froyen macroeconomics",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "public policy meaning",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 3,
-      "clicks": 0,
-      "ctr": 0.0
-    },
-    {
-      "text": "msc public policy",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0.0
     }
   ],
   "geography": [
@@ -4447,48 +4719,32 @@
       "location_name": "Afghanistan",
       "country_code": "AF",
       "spend": 7.59,
-      "impressions": 10,
+      "impressions": 7,
       "clicks": 1,
-      "conversions": 0.0
-    },
-    {
-      "location_name": "Albania",
-      "country_code": "AL",
-      "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Algeria",
       "country_code": "DZ",
       "spend": 0.0,
-      "impressions": 10,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "location_name": "Azerbaijan",
-      "country_code": "AZ",
-      "spend": 0.0,
-      "impressions": 1,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Argentina",
       "country_code": "AR",
-      "spend": 76.185335,
-      "impressions": 398,
-      "clicks": 9,
-      "conversions": 5.0
+      "spend": 146.830712,
+      "impressions": 646,
+      "clicks": 20,
+      "conversions": 3.0
     },
     {
       "location_name": "Australia",
       "country_code": "AU",
-      "spend": 10.44,
-      "impressions": 16,
-      "clicks": 2,
+      "spend": 106.19,
+      "impressions": 204,
+      "clicks": 12,
       "conversions": 0.0
     },
     {
@@ -4502,42 +4758,34 @@
     {
       "location_name": "Bahrain",
       "country_code": "BH",
-      "spend": 0.0,
-      "impressions": 5,
-      "clicks": 0,
+      "spend": 3.96,
+      "impressions": 10,
+      "clicks": 2,
       "conversions": 0.0
     },
     {
       "location_name": "Bangladesh",
       "country_code": "BD",
-      "spend": 14.265398,
-      "impressions": 103,
-      "clicks": 6,
-      "conversions": 0.0
-    },
-    {
-      "location_name": "Country 2052",
-      "country_code": "2052",
-      "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
+      "spend": 27.750334,
+      "impressions": 65,
+      "clicks": 10,
       "conversions": 0.0
     },
     {
       "location_name": "Belgium",
       "country_code": "BE",
       "spend": 0.0,
-      "impressions": 4,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0
     },
     {
-      "location_name": "Country 2064",
-      "country_code": "2064",
-      "spend": 0.01,
-      "impressions": 1,
-      "clicks": 1,
-      "conversions": 1.0
+      "location_name": "Bolivia",
+      "country_code": "BO",
+      "spend": 0.0,
+      "impressions": 2,
+      "clicks": 0,
+      "conversions": 0.0
     },
     {
       "location_name": "Bosnia and Herzegovina",
@@ -4550,80 +4798,88 @@
     {
       "location_name": "Brazil",
       "country_code": "BR",
-      "spend": 5.42,
-      "impressions": 21,
+      "spend": 2.71,
+      "impressions": 15,
       "clicks": 1,
       "conversions": 0.0
     },
     {
-      "location_name": "Bulgaria",
-      "country_code": "BG",
-      "spend": 0.0,
-      "impressions": 2,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "location_name": "Myanmar",
-      "country_code": "MM",
-      "spend": 3.331506,
-      "impressions": 17,
-      "clicks": 3,
-      "conversions": 1.0
-    },
-    {
-      "location_name": "Cambodia",
-      "country_code": "KH",
-      "spend": 2.936786,
-      "impressions": 42,
-      "clicks": 5,
-      "conversions": 4.0
-    },
-    {
-      "location_name": "Canada",
-      "country_code": "CA",
-      "spend": 23.78,
-      "impressions": 51,
-      "clicks": 10,
-      "conversions": 5.892966
-    },
-    {
-      "location_name": "Sri Lanka",
-      "country_code": "LK",
-      "spend": 1.256,
-      "impressions": 9,
-      "clicks": 2,
-      "conversions": 1.0
-    },
-    {
-      "location_name": "China",
-      "country_code": "CN",
-      "spend": 11.64,
-      "impressions": 30,
-      "clicks": 3,
-      "conversions": 4.0
-    },
-    {
-      "location_name": "Taiwan",
-      "country_code": "TW",
-      "spend": 11.6,
-      "impressions": 52,
-      "clicks": 4,
-      "conversions": 1.0
-    },
-    {
-      "location_name": "Colombia",
-      "country_code": "CO",
+      "location_name": "Country 2084",
+      "country_code": "2084",
       "spend": 0.0,
       "impressions": 1,
       "clicks": 0,
       "conversions": 0.0
     },
     {
-      "location_name": "Country 2180",
-      "country_code": "2180",
+      "location_name": "Country 2096",
+      "country_code": "2096",
+      "spend": 2.05,
+      "impressions": 1,
+      "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Myanmar",
+      "country_code": "MM",
       "spend": 0.0,
-      "impressions": 3,
+      "impressions": 8,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Cambodia",
+      "country_code": "KH",
+      "spend": 1.85,
+      "impressions": 17,
+      "clicks": 2,
+      "conversions": 1.0
+    },
+    {
+      "location_name": "Canada",
+      "country_code": "CA",
+      "spend": 118.96,
+      "impressions": 196,
+      "clicks": 21,
+      "conversions": 9.892966
+    },
+    {
+      "location_name": "Sri Lanka",
+      "country_code": "LK",
+      "spend": 0.006,
+      "impressions": 17,
+      "clicks": 1,
+      "conversions": 1.0
+    },
+    {
+      "location_name": "Chile",
+      "country_code": "CL",
+      "spend": 0.0,
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "China",
+      "country_code": "CN",
+      "spend": 133.579218,
+      "impressions": 67,
+      "clicks": 12,
+      "conversions": 4.0
+    },
+    {
+      "location_name": "Taiwan",
+      "country_code": "TW",
+      "spend": 33.89,
+      "impressions": 79,
+      "clicks": 4,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Colombia",
+      "country_code": "CO",
+      "spend": 0.0,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -4631,15 +4887,7 @@
       "location_name": "Croatia",
       "country_code": "HR",
       "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "location_name": "Country 2192",
-      "country_code": "2192",
-      "spend": 0.0,
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -4655,15 +4903,23 @@
       "location_name": "Czech Republic",
       "country_code": "CZ",
       "spend": 9.74,
-      "impressions": 5,
+      "impressions": 3,
       "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Denmark",
+      "country_code": "DK",
+      "spend": 0.0,
+      "impressions": 2,
+      "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Dominican Republic",
       "country_code": "DO",
       "spend": 0.0,
-      "impressions": 7,
+      "impressions": 6,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -4671,40 +4927,48 @@
       "location_name": "Ecuador",
       "country_code": "EC",
       "spend": 8.6,
-      "impressions": 8,
+      "impressions": 4,
       "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Country 2231",
       "country_code": "2231",
-      "spend": 1.15,
-      "impressions": 12,
-      "clicks": 1,
+      "spend": 2.16,
+      "impressions": 10,
+      "clicks": 2,
       "conversions": 0.0
     },
     {
-      "location_name": "Finland",
-      "country_code": "FI",
+      "location_name": "Estonia",
+      "country_code": "EE",
       "spend": 0.0,
       "impressions": 2,
       "clicks": 0,
       "conversions": 0.0
     },
     {
-      "location_name": "France",
-      "country_code": "FR",
-      "spend": 37.06,
-      "impressions": 21,
-      "clicks": 2,
+      "location_name": "Country 2242",
+      "country_code": "2242",
+      "spend": 0.0,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0
     },
     {
-      "location_name": "Country 2266",
-      "country_code": "2266",
-      "spend": 4.37,
-      "impressions": 3,
+      "location_name": "Finland",
+      "country_code": "FI",
+      "spend": 19.91,
+      "impressions": 8,
       "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "France",
+      "country_code": "FR",
+      "spend": 43.230000000000004,
+      "impressions": 21,
+      "clicks": 3,
       "conversions": 0.0
     },
     {
@@ -4718,32 +4982,40 @@
     {
       "location_name": "Country 2275",
       "country_code": "2275",
-      "spend": 0.0,
-      "impressions": 6,
-      "clicks": 0,
+      "spend": 18.97,
+      "impressions": 2,
+      "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Germany",
       "country_code": "DE",
-      "spend": 0.3,
-      "impressions": 13,
-      "clicks": 1,
+      "spend": 2.61,
+      "impressions": 24,
+      "clicks": 3,
       "conversions": 0.0
     },
     {
       "location_name": "Ghana",
       "country_code": "GH",
       "spend": 0.0,
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Greece",
       "country_code": "GR",
-      "spend": 2.816443,
-      "impressions": 3,
+      "spend": 0.01,
+      "impressions": 4,
+      "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Country 2316",
+      "country_code": "2316",
+      "spend": 0.53,
+      "impressions": 1,
       "clicks": 1,
       "conversions": 0.0
     },
@@ -4751,7 +5023,7 @@
       "location_name": "Guatemala",
       "country_code": "GT",
       "spend": 0.0,
-      "impressions": 8,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -4766,18 +5038,26 @@
     {
       "location_name": "Country 2332",
       "country_code": "2332",
-      "spend": 2.21,
-      "impressions": 5,
+      "spend": 0.0,
+      "impressions": 3,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Country 2340",
+      "country_code": "2340",
+      "spend": 3.12,
+      "impressions": 1,
       "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Hong Kong",
       "country_code": "HK",
-      "spend": 7.580076,
-      "impressions": 37,
-      "clicks": 7,
-      "conversions": 1.0
+      "spend": 21.32,
+      "impressions": 60,
+      "clicks": 4,
+      "conversions": 0.0
     },
     {
       "location_name": "Hungary",
@@ -4790,40 +5070,48 @@
     {
       "location_name": "India",
       "country_code": "IN",
-      "spend": 36.41,
-      "impressions": 266,
-      "clicks": 8,
-      "conversions": 3.0
+      "spend": 74.919822,
+      "impressions": 136,
+      "clicks": 28,
+      "conversions": 0.0
     },
     {
       "location_name": "Indonesia",
       "country_code": "ID",
-      "spend": 29.9,
-      "impressions": 194,
-      "clicks": 6,
-      "conversions": 7.0
+      "spend": 35.604644,
+      "impressions": 166,
+      "clicks": 10,
+      "conversions": 0.0
     },
     {
       "location_name": "Iran",
       "country_code": "IR",
-      "spend": 61.575192,
-      "impressions": 73,
-      "clicks": 12,
-      "conversions": 5.0
+      "spend": 64.393521,
+      "impressions": 22,
+      "clicks": 7,
+      "conversions": 0.0
     },
     {
       "location_name": "Iraq",
       "country_code": "IQ",
-      "spend": 143.894381,
-      "impressions": 227,
-      "clicks": 17,
-      "conversions": 7.0
+      "spend": 265.304381,
+      "impressions": 131,
+      "clicks": 29,
+      "conversions": 2.0
+    },
+    {
+      "location_name": "Ireland",
+      "country_code": "IE",
+      "spend": 0.0,
+      "impressions": 6,
+      "clicks": 0,
+      "conversions": 0.0
     },
     {
       "location_name": "Israel",
       "country_code": "IL",
       "spend": 0.15,
-      "impressions": 6,
+      "impressions": 2,
       "clicks": 1,
       "conversions": 0.0
     },
@@ -4839,7 +5127,7 @@
       "location_name": "Ivory Coast",
       "country_code": "CI",
       "spend": 0.0,
-      "impressions": 3,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -4854,16 +5142,16 @@
     {
       "location_name": "Japan",
       "country_code": "JP",
-      "spend": 17.55,
-      "impressions": 20,
-      "clicks": 2,
-      "conversions": 5.0
+      "spend": 14.27,
+      "impressions": 49,
+      "clicks": 4,
+      "conversions": 0.0
     },
     {
       "location_name": "Kazakhstan",
       "country_code": "KZ",
       "spend": 0.0,
-      "impressions": 1,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -4871,7 +5159,7 @@
       "location_name": "Jordan",
       "country_code": "JO",
       "spend": 0.0,
-      "impressions": 9,
+      "impressions": 10,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -4879,47 +5167,55 @@
       "location_name": "Kenya",
       "country_code": "KE",
       "spend": 0.95,
-      "impressions": 6,
+      "impressions": 5,
       "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "South Korea",
       "country_code": "KR",
-      "spend": 22.010675,
-      "impressions": 65,
-      "clicks": 10,
+      "spend": 81.974689,
+      "impressions": 113,
+      "clicks": 15,
       "conversions": 9.017559
     },
     {
       "location_name": "Kuwait",
       "country_code": "KW",
-      "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
+      "spend": 4.16,
+      "impressions": 3,
+      "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Country 2418",
       "country_code": "2418",
-      "spend": 22.091945,
-      "impressions": 26,
-      "clicks": 8,
-      "conversions": 3.0
+      "spend": 0.615881,
+      "impressions": 5,
+      "clicks": 1,
+      "conversions": 1.0
     },
     {
       "location_name": "Lebanon",
       "country_code": "LB",
-      "spend": 13.27,
-      "impressions": 14,
-      "clicks": 3,
-      "conversions": 2.0
+      "spend": 32.69,
+      "impressions": 17,
+      "clicks": 6,
+      "conversions": 1.0
+    },
+    {
+      "location_name": "Country 2430",
+      "country_code": "2430",
+      "spend": 2.43,
+      "impressions": 2,
+      "clicks": 1,
+      "conversions": 0.0
     },
     {
       "location_name": "Country 2434",
       "country_code": "2434",
       "spend": 0.0,
-      "impressions": 5,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -4927,117 +5223,109 @@
       "location_name": "Country 2446",
       "country_code": "2446",
       "spend": 0.0,
-      "impressions": 8,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "location_name": "Country 2450",
-      "country_code": "2450",
-      "spend": 0.0,
-      "impressions": 1,
+      "impressions": 7,
       "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Malaysia",
       "country_code": "MY",
-      "spend": 9.49,
-      "impressions": 17,
+      "spend": 1.24,
+      "impressions": 16,
       "clicks": 1,
-      "conversions": 1.0
-    },
-    {
-      "location_name": "Country 2466",
-      "country_code": "2466",
-      "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
       "conversions": 0.0
     },
     {
-      "location_name": "Country 2478",
-      "country_code": "2478",
+      "location_name": "Country 2462",
+      "country_code": "2462",
       "spend": 0.0,
-      "impressions": 2,
+      "impressions": 1,
       "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Mexico",
       "country_code": "MX",
-      "spend": 3.198844,
-      "impressions": 9,
-      "clicks": 1,
+      "spend": 0.0,
+      "impressions": 4,
+      "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Country 2496",
       "country_code": "2496",
-      "spend": 0.0,
-      "impressions": 2,
-      "clicks": 0,
+      "spend": 4.02,
+      "impressions": 5,
+      "clicks": 2,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Moldova",
+      "country_code": "MD",
+      "spend": 0.66,
+      "impressions": 1,
+      "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Morocco",
       "country_code": "MA",
-      "spend": 4.42,
-      "impressions": 7,
-      "clicks": 1,
-      "conversions": 1.0
-    },
-    {
-      "location_name": "Country 2512",
-      "country_code": "2512",
-      "spend": 2.51,
-      "impressions": 2,
-      "clicks": 1,
+      "spend": 8.38,
+      "impressions": 4,
+      "clicks": 2,
       "conversions": 0.0
     },
     {
       "location_name": "Country 2524",
       "country_code": "2524",
-      "spend": 0.0,
-      "impressions": 15,
-      "clicks": 0,
+      "spend": 8.26,
+      "impressions": 12,
+      "clicks": 3,
       "conversions": 0.0
     },
     {
       "location_name": "Netherlands",
       "country_code": "NL",
-      "spend": 6.71,
-      "impressions": 6,
-      "clicks": 2,
+      "spend": 0.87,
+      "impressions": 9,
+      "clicks": 1,
       "conversions": 10.98063
     },
     {
       "location_name": "New Zealand",
       "country_code": "NZ",
-      "spend": 26.368032,
-      "impressions": 18,
-      "clicks": 8,
-      "conversions": 10.0
+      "spend": 26.299714,
+      "impressions": 73,
+      "clicks": 7,
+      "conversions": 2.0
     },
     {
       "location_name": "Nicaragua",
       "country_code": "NI",
       "spend": 0.0,
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Nigeria",
       "country_code": "NG",
-      "spend": 0.0,
-      "impressions": 7,
-      "clicks": 0,
+      "spend": 0.01,
+      "impressions": 10,
+      "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Norway",
       "country_code": "NO",
+      "spend": 5.61,
+      "impressions": 8,
+      "clicks": 1,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Country 2580",
+      "country_code": "2580",
       "spend": 0.0,
       "impressions": 1,
       "clicks": 0,
@@ -5046,48 +5334,48 @@
     {
       "location_name": "Pakistan",
       "country_code": "PK",
-      "spend": 17.59,
-      "impressions": 152,
-      "clicks": 6,
+      "spend": 50.59,
+      "impressions": 156,
+      "clicks": 17,
       "conversions": 1.0
     },
     {
       "location_name": "Country 2598",
       "country_code": "2598",
-      "spend": 0.0,
-      "impressions": 4,
-      "clicks": 0,
+      "spend": 11.96,
+      "impressions": 2,
+      "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Peru",
       "country_code": "PE",
       "spend": 5.35,
-      "impressions": 12,
+      "impressions": 16,
       "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Philippines",
       "country_code": "PH",
-      "spend": 0.0,
-      "impressions": 56,
-      "clicks": 0,
+      "spend": 16.62,
+      "impressions": 94,
+      "clicks": 7,
       "conversions": 0.0
     },
     {
       "location_name": "Poland",
       "country_code": "PL",
-      "spend": 0.38,
-      "impressions": 3,
-      "clicks": 2,
+      "spend": 0.7,
+      "impressions": 5,
+      "clicks": 3,
       "conversions": 2.0
     },
     {
       "location_name": "Portugal",
       "country_code": "PT",
       "spend": 19.36,
-      "impressions": 2,
+      "impressions": 5,
       "clicks": 1,
       "conversions": 0.0
     },
@@ -5095,7 +5383,7 @@
       "location_name": "Country 2626",
       "country_code": "2626",
       "spend": 2.79,
-      "impressions": 4,
+      "impressions": 2,
       "clicks": 1,
       "conversions": 1.0
     },
@@ -5103,7 +5391,7 @@
       "location_name": "Puerto Rico",
       "country_code": "PR",
       "spend": 0.0,
-      "impressions": 4,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -5111,7 +5399,7 @@
       "location_name": "Qatar",
       "country_code": "QA",
       "spend": 0.83,
-      "impressions": 6,
+      "impressions": 8,
       "clicks": 1,
       "conversions": 0.0
     },
@@ -5119,87 +5407,95 @@
       "location_name": "Romania",
       "country_code": "RO",
       "spend": 0.01,
-      "impressions": 4,
+      "impressions": 2,
       "clicks": 1,
       "conversions": 1.0
     },
     {
+      "location_name": "Country 2660",
+      "country_code": "2660",
+      "spend": 0.0,
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Country 2662",
+      "country_code": "2662",
+      "spend": 0.0,
+      "impressions": 1,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
       "location_name": "Saudi Arabia",
       "country_code": "SA",
-      "spend": 8.08447,
-      "impressions": 53,
-      "clicks": 3,
-      "conversions": 2.0
+      "spend": 14.41447,
+      "impressions": 35,
+      "clicks": 6,
+      "conversions": 1.0
     },
     {
       "location_name": "Senegal",
       "country_code": "SN",
       "spend": 0.14,
-      "impressions": 7,
+      "impressions": 4,
       "clicks": 1,
       "conversions": 0.0
     },
     {
-      "location_name": "Country 2694",
-      "country_code": "2694",
-      "spend": 0.0,
-      "impressions": 2,
-      "clicks": 0,
+      "location_name": "Serbia",
+      "country_code": "RS",
+      "spend": 11.639999999999999,
+      "impressions": 7,
+      "clicks": 3,
       "conversions": 0.0
     },
     {
       "location_name": "Singapore",
       "country_code": "SG",
       "spend": 0.18,
-      "impressions": 7,
+      "impressions": 11,
       "clicks": 2,
       "conversions": 1.406944
     },
     {
       "location_name": "Vietnam",
       "country_code": "VN",
-      "spend": 5.6,
-      "impressions": 34,
-      "clicks": 4,
+      "spend": 0.09,
+      "impressions": 24,
+      "clicks": 1,
       "conversions": 1.915794
     },
     {
       "location_name": "Country 2706",
       "country_code": "2706",
       "spend": 0.0,
-      "impressions": 1,
+      "impressions": 2,
       "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "South Africa",
       "country_code": "ZA",
-      "spend": 3.37,
-      "impressions": 9,
-      "clicks": 1,
+      "spend": 36.56,
+      "impressions": 94,
+      "clicks": 15,
       "conversions": 0.0
     },
     {
       "location_name": "Spain",
       "country_code": "ES",
-      "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "location_name": "Country 2728",
-      "country_code": "2728",
-      "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
+      "spend": 4.61,
+      "impressions": 5,
+      "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "Country 2736",
       "country_code": "2736",
       "spend": 0.0,
-      "impressions": 11,
+      "impressions": 5,
       "clicks": 0,
       "conversions": 0.0
     },
@@ -5207,7 +5503,7 @@
       "location_name": "Sweden",
       "country_code": "SE",
       "spend": 0.5,
-      "impressions": 3,
+      "impressions": 12,
       "clicks": 1,
       "conversions": 1.0
     },
@@ -5215,112 +5511,104 @@
       "location_name": "Switzerland",
       "country_code": "CH",
       "spend": 0.0,
-      "impressions": 6,
+      "impressions": 8,
       "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "Country 2760",
       "country_code": "2760",
-      "spend": 1.83,
-      "impressions": 31,
-      "clicks": 1,
+      "spend": 20.463344,
+      "impressions": 8,
+      "clicks": 2,
       "conversions": 0.0
     },
     {
       "location_name": "Thailand",
       "country_code": "TH",
-      "spend": 0.34,
-      "impressions": 25,
-      "clicks": 1,
+      "spend": 0.0,
+      "impressions": 20,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "location_name": "Country 2780",
+      "country_code": "2780",
+      "spend": 0.0,
+      "impressions": 1,
+      "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "United Arab Emirates",
       "country_code": "AE",
-      "spend": 4.09,
-      "impressions": 11,
-      "clicks": 3,
+      "spend": 21.729123,
+      "impressions": 26,
+      "clicks": 5,
       "conversions": 3.0
     },
     {
-      "location_name": "Tunisia",
-      "country_code": "TN",
+      "location_name": "Turkey",
+      "country_code": "TR",
+      "spend": 482.590534,
+      "impressions": 725,
+      "clicks": 52,
+      "conversions": 2.790491
+    },
+    {
+      "location_name": "Country 2800",
+      "country_code": "2800",
       "spend": 0.0,
       "impressions": 2,
       "clicks": 0,
       "conversions": 0.0
     },
     {
-      "location_name": "Turkey",
-      "country_code": "TR",
-      "spend": 279.870534,
-      "impressions": 465,
-      "clicks": 27,
-      "conversions": 4.790491
-    },
-    {
-      "location_name": "Country 2800",
-      "country_code": "2800",
-      "spend": 0.0,
-      "impressions": 4,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
       "location_name": "Ukraine",
       "country_code": "UA",
-      "spend": 132.65,
-      "impressions": 60,
-      "clicks": 17,
+      "spend": 189.351488,
+      "impressions": 114,
+      "clicks": 26,
       "conversions": 1.0
     },
     {
       "location_name": "Egypt",
       "country_code": "EG",
-      "spend": 0.0,
-      "impressions": 29,
-      "clicks": 0,
+      "spend": 0.41,
+      "impressions": 21,
+      "clicks": 1,
       "conversions": 0.0
     },
     {
       "location_name": "United Kingdom",
       "country_code": "UK",
-      "spend": 137.604011,
-      "impressions": 184,
-      "clicks": 35,
-      "conversions": 34.639462
+      "spend": 2775.112659,
+      "impressions": 7470,
+      "clicks": 558,
+      "conversions": 43.639462
     },
     {
       "location_name": "Tanzania",
       "country_code": "TZ",
       "spend": 0.0,
-      "impressions": 1,
+      "impressions": 3,
       "clicks": 0,
       "conversions": 0.0
     },
     {
       "location_name": "United States",
       "country_code": "US",
-      "spend": 25804.6117,
-      "impressions": 119898,
-      "clicks": 4376,
-      "conversions": 965.878649
+      "spend": 27777.569571,
+      "impressions": 63675,
+      "clicks": 4079,
+      "conversions": 1239.852738
     },
     {
       "location_name": "Country 2887",
       "country_code": "2887",
-      "spend": 12.73,
-      "impressions": 46,
-      "clicks": 4,
-      "conversions": 1.0
-    },
-    {
-      "location_name": "Country 2894",
-      "country_code": "2894",
-      "spend": 0.0,
-      "impressions": 1,
-      "clicks": 0,
+      "spend": 11.24,
+      "impressions": 5,
+      "clicks": 1,
       "conversions": 0.0
     }
   ]
