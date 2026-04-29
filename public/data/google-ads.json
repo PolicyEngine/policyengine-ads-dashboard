@@ -1,27 +1,20 @@
 {
   "platform": "google_ads",
   "platform_name": "Google Ads",
-  "last_updated": "2026-04-28T07:04:36.558803Z",
+  "last_updated": "2026-04-29T06:59:23.867678Z",
   "date_range": {
-    "start": "2025-04-28",
-    "end": "2026-04-28"
+    "start": "2025-04-29",
+    "end": "2026-04-29"
   },
   "summary": {
-    "total_spend": 32810.86,
-    "total_impressions": 74928,
-    "total_clicks": 5017,
-    "ctr": 0.067,
-    "conversions": 1345,
+    "total_spend": 33086.54,
+    "total_impressions": 75646,
+    "total_clicks": 5056,
+    "ctr": 0.0668,
+    "conversions": 1375,
     "avg_cpc": 6.54
   },
   "daily": [
-    {
-      "date": "2025-04-28",
-      "spend": 56.526487,
-      "impressions": 118,
-      "clicks": 9,
-      "conversions": 1.0
-    },
     {
       "date": "2025-04-29",
       "spend": 87.527423,
@@ -2572,8 +2565,15 @@
     },
     {
       "date": "2026-04-28",
+      "spend": 332.208331,
+      "impressions": 808,
+      "clicks": 48,
+      "conversions": 31.0
+    },
+    {
+      "date": "2026-04-29",
       "spend": 0.0,
-      "impressions": 32,
+      "impressions": 60,
       "clicks": 0,
       "conversions": 0.0
     }
@@ -2583,41 +2583,31 @@
       "id": "19638300165",
       "name": "PolicyEngine: US",
       "status": "ENABLED",
-      "spend": 27606.036335,
-      "impressions": 63336,
-      "clicks": 4003,
-      "conversions": 1214.627119,
-      "ctr": 0.06320260199570545
+      "spend": 27833.053612,
+      "impressions": 63878,
+      "clicks": 4029,
+      "conversions": 1239.627119,
+      "ctr": 0.06307335858981183
     },
     {
       "id": "19645727936",
       "name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
-      "spend": 5204.82377,
-      "impressions": 11592,
-      "clicks": 1014,
-      "conversions": 130.869465,
-      "ctr": 0.08747412008281573
+      "spend": 5253.488337,
+      "impressions": 11768,
+      "clicks": 1027,
+      "conversions": 135.869465,
+      "ctr": 0.08727056424201224
     }
   ],
   "ad_groups": [
-    {
-      "id": "142647852621",
-      "name": "Homepage (non-US)",
-      "campaign_id": "19645727936",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 1944.171849,
-      "impressions": 2577,
-      "clicks": 312,
-      "conversions": 94.103065
-    },
     {
       "id": "143114843741",
       "name": "Child Tax Credit",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
       "spend": 3520.518152,
-      "impressions": 9100,
+      "impressions": 9067,
       "clicks": 357,
       "conversions": 51.789686
     },
@@ -2636,20 +2626,10 @@
       "name": "Oregon Earned Income Tax Credit",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 7868.252437,
-      "impressions": 23649,
-      "clicks": 1059,
-      "conversions": 177.217301
-    },
-    {
-      "id": "149834826441",
-      "name": "Benefit cliffs",
-      "campaign_id": "19645727936",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 14.85,
-      "impressions": 124,
-      "clicks": 15,
-      "conversions": 21.7664
+      "spend": 7811.72595,
+      "impressions": 23570,
+      "clicks": 1050,
+      "conversions": 176.217301
     },
     {
       "id": "152339858570",
@@ -2696,9 +2676,9 @@
       "name": "State Taxes",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 1833.884104,
-      "impressions": 2476,
-      "clicks": 230,
+      "spend": 1842.314104,
+      "impressions": 2487,
+      "clicks": 231,
       "conversions": 131.0
     },
     {
@@ -2756,19 +2736,19 @@
       "name": "Marriage Calculator",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 5178.005593,
-      "impressions": 13707,
-      "clicks": 1039,
-      "conversions": 488.0
+      "spend": 5392.135574,
+      "impressions": 14057,
+      "clicks": 1063,
+      "conversions": 510.666666
     },
     {
       "id": "193592253076",
       "name": "Legislation / Reform",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 66.648973,
-      "impressions": 603,
-      "clicks": 17,
+      "spend": 69.238973,
+      "impressions": 623,
+      "clicks": 18,
       "conversions": 0.0
     },
     {
@@ -2780,6 +2760,116 @@
       "impressions": 0,
       "clicks": 0,
       "conversions": 0.0
+    },
+    {
+      "id": "193741546764",
+      "name": "TCJA Tax Reform Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "193741547684",
+      "name": "50 State Tax Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 3785.618672,
+      "impressions": 5792,
+      "clicks": 382,
+      "conversions": 0.0
+    },
+    {
+      "id": "194009163096",
+      "name": "ACA / Health Insurance",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 1864.563855,
+      "impressions": 1972,
+      "clicks": 245,
+      "conversions": 126.0
+    },
+    {
+      "id": "195211907467",
+      "name": "Microsimulation Software",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "197337016772",
+      "name": "Government and Think Tank Solutions",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "199128564608",
+      "name": "Brand",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 200.974655,
+      "impressions": 553,
+      "clicks": 143,
+      "conversions": 58.5
+    },
+    {
+      "id": "200292940264",
+      "name": "Research & Tools",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 1002.912065,
+      "impressions": 3464,
+      "clicks": 129,
+      "conversions": 23.333334
+    },
+    {
+      "id": "200626899028",
+      "name": "SALT AMT Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 683.907141,
+      "impressions": 604,
+      "clicks": 67,
+      "conversions": 0.0
+    },
+    {
+      "id": "200630528068",
+      "name": "TEST-DELETE-ME-grantweston-adgroup",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "142647852621",
+      "name": "Homepage (non-US)",
+      "campaign_id": "19645727936",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 1944.171849,
+      "impressions": 2571,
+      "clicks": 312,
+      "conversions": 94.103065
+    },
+    {
+      "id": "149834826441",
+      "name": "Benefit cliffs",
+      "campaign_id": "19645727936",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 14.85,
+      "impressions": 124,
+      "clicks": 15,
+      "conversions": 21.7664
     },
     {
       "id": "193621027353",
@@ -2822,44 +2912,14 @@
       "conversions": 0.0
     },
     {
-      "id": "193741546764",
-      "name": "TCJA Tax Reform Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "id": "193741547684",
-      "name": "50 State Tax Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 3785.618672,
-      "impressions": 5792,
-      "clicks": 382,
-      "conversions": 0.0
-    },
-    {
-      "id": "194009163096",
-      "name": "ACA / Health Insurance",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 1834.671744,
-      "impressions": 1951,
-      "clicks": 242,
-      "conversions": 123.0
-    },
-    {
       "id": "194886175569",
       "name": "Scottish Budget Calculator",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 1728.321404,
-      "impressions": 5545,
-      "clicks": 418,
-      "conversions": 10.0
+      "spend": 1763.459175,
+      "impressions": 5661,
+      "clicks": 427,
+      "conversions": 12.0
     },
     {
       "id": "194886182609",
@@ -2872,34 +2932,14 @@
       "conversions": 0.0
     },
     {
-      "id": "195211907467",
-      "name": "Microsimulation Software",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "id": "197337016772",
-      "name": "Government and Think Tank Solutions",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
       "id": "197796293248",
       "name": "UK Policy Calculator - Trusted by Government",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 260.677957,
-      "impressions": 1021,
-      "clicks": 48,
-      "conversions": 5.0
+      "spend": 274.204753,
+      "impressions": 1085,
+      "clicks": 52,
+      "conversions": 8.0
     },
     {
       "id": "197796308528",
@@ -2907,52 +2947,50 @@
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
       "spend": 71.045008,
-      "impressions": 111,
+      "impressions": 113,
       "clicks": 5,
-      "conversions": 0.0
-    },
-    {
-      "id": "199128564608",
-      "name": "Brand",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 200.974655,
-      "impressions": 542,
-      "clicks": 143,
-      "conversions": 58.5
-    },
-    {
-      "id": "200292940264",
-      "name": "Research & Tools",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 974.410393,
-      "impressions": 3223,
-      "clicks": 123,
-      "conversions": 23.0
-    },
-    {
-      "id": "200626899028",
-      "name": "SALT AMT Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 683.907141,
-      "impressions": 604,
-      "clicks": 67,
-      "conversions": 0.0
-    },
-    {
-      "id": "200630528068",
-      "name": "TEST-DELETE-ME-grantweston-adgroup",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
       "conversions": 0.0
     }
   ],
   "ads": [
+    {
+      "ad_id": "647075541518",
+      "ad_group_id": "142647852621",
+      "ad_group_name": "Homepage (non-US)",
+      "campaign_id": "19645727936",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org"
+      ],
+      "headlines": [
+        "Design A Policy",
+        "Instant Policy Analysis",
+        "Computing The Impact Of Policy",
+        "We Use Code To Measure Impact",
+        "Test Out Your Policy Reforms",
+        "Try Our Policy Calculator Now",
+        "Test Tax Reform Ideas",
+        "Designed For Policymakers",
+        "Help With Policy Research",
+        "Test Benefit Reforms",
+        "What Would Policy Reform Do?",
+        "What Would Tax Reform Do?",
+        "Try It Now",
+        "Learn More",
+        "PolicyEngine"
+      ],
+      "descriptions": [
+        "PolicyEngine Offers Free Open Source Software To Help Test Benefits And Tax Policy",
+        "Compute Your Household Income, Including Tax And Benefits, Under Different Policies",
+        "Compute The Impact Of Policy Reforms. A Tool To Assist With Policy And Economic Research",
+        "From Idea To Impact: Score Your Policy Reform On PolicyEngine's Policy Calculator"
+      ],
+      "spend": 1944.171849,
+      "impressions": 2571,
+      "clicks": 312,
+      "conversions": 94.103065
+    },
     {
       "ad_id": "648810760303",
       "ad_group_id": "143114843741",
@@ -2983,7 +3021,7 @@
         "What Is Child Tax Credit And How Much Is It Worth? Find Out Now"
       ],
       "spend": 3520.518152,
-      "impressions": 9100,
+      "impressions": 9067,
       "clicks": 357,
       "conversions": 51.789686
     },
@@ -3057,10 +3095,46 @@
         "Calculate The Impact That Earned Income Tax Credit Would Have On Your Household Income",
         "The Federal Earned Income Tax Credit Is Accrued By Working And It Lowers Tax Liability"
       ],
-      "spend": 7868.252437,
-      "impressions": 23649,
-      "clicks": 1059,
-      "conversions": 177.217301
+      "spend": 7811.72595,
+      "impressions": 23570,
+      "clicks": 1050,
+      "conversions": 176.217301
+    },
+    {
+      "ad_id": "648807511129",
+      "ad_group_id": "149834826441",
+      "ad_group_name": "Benefit cliffs",
+      "campaign_id": "19645727936",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/blog/2023-02-02-how-would-reforms-affect-cliffs"
+      ],
+      "headlines": [
+        "What Is A Benefits Cliff?",
+        "What Is A Welfare Cliff?",
+        "How Does It Impact Policy?",
+        "Calculate Benefits Cliffs",
+        "Calculate Policy Solutions",
+        "Designed For Policymakers",
+        "Try Our Policy Calculator Now",
+        "Test Out Public Policy Ideas",
+        "Effect Of Raising Income",
+        "US Households: Try Now",
+        "Try It Now",
+        "Learn More",
+        "PolicyEngine"
+      ],
+      "descriptions": [
+        "PolicyEngine Offers Free Open Source Software To Help Test Benefits And Tax Policy",
+        "Compute Your Household Income, Including Tax And Benefits, Under Different Policies",
+        "Use Our Policy Calculator To Avoid The Benefits Cliff With Your Reforms",
+        "Find Out What Welfare Cliffs Are And How You Can Avoid Them In Your Policy Reforms"
+      ],
+      "spend": 14.85,
+      "impressions": 124,
+      "clicks": 15,
+      "conversions": 21.7664
     },
     {
       "ad_id": "685617078140",
@@ -3274,9 +3348,9 @@
         "Free state tax and benefit calculator. EITC, child credits, and more across all 50 states.",
         "Model state tax reforms and see your household impact. Open source and free to use."
       ],
-      "spend": 1833.884104,
-      "impressions": 2476,
-      "clicks": 230,
+      "spend": 1842.314104,
+      "impressions": 2487,
+      "clicks": 231,
       "conversions": 131.0
     },
     {
@@ -3553,10 +3627,10 @@
         "Should you file jointly or separately? See the full impact on taxes and benefits.",
         "Calculate your marriage penalty or bonus across taxes and benefits. Free on PolicyEngine."
       ],
-      "spend": 5178.005593,
-      "impressions": 13707,
-      "clicks": 1039,
-      "conversions": 488.0
+      "spend": 5392.135574,
+      "impressions": 14057,
+      "clicks": 1063,
+      "conversions": 510.666666
     },
     {
       "ad_id": "798014647346",
@@ -3591,9 +3665,9 @@
         "How will tax changes affect you? Calculate your impact from the latest legislation.",
         "Model the tax bill yourself and see your household's bottom line. No waiting."
       ],
-      "spend": 66.648973,
-      "impressions": 603,
-      "clicks": 17,
+      "spend": 69.238973,
+      "impressions": 623,
+      "clicks": 18,
       "conversions": 0.0
     },
     {
@@ -3629,375 +3703,6 @@
       "impressions": 0,
       "clicks": 0,
       "conversions": 0.0
-    },
-    {
-      "ad_id": "794284806702",
-      "ad_group_id": "193741546764",
-      "ad_group_name": "TCJA Tax Reform Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org/us/household"
-      ],
-      "headlines": [
-        "TCJA Extension Calculator",
-        "Tax Reform Calculator",
-        "2026 Tax Changes",
-        "Trump Tax Cuts Impact",
-        "TCJA Expiration Tool",
-        "Calculate Tax Reform",
-        "PolicyEngine Calculator",
-        "See Your Tax Impact",
-        "Free Tax Analysis",
-        "Nonpartisan Tool",
-        "Instant Results"
-      ],
-      "descriptions": [
-        "See how TCJA extension or expiration affects your taxes. Free, nonpartisan calculator.",
-        "PolicyEngine models the Tax Cuts and Jobs Act provisions. Calculate your personal impact.",
-        "Compare current law with potential tax reform scenarios. Instant, accurate analysis."
-      ],
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "ad_id": "794391819002",
-      "ad_group_id": "193741547684",
-      "ad_group_name": "50 State Tax Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org/us/household"
-      ],
-      "headlines": [
-        "50 State Tax Calculator",
-        "State Tax Comparison",
-        "All States Tax Tool",
-        "Compare State Taxes",
-        "State Income Tax",
-        "PolicyEngine Calculator",
-        "Federal + State Taxes",
-        "Free Calculator",
-        "Instant Results",
-        "Every US State",
-        "Accurate Analysis"
-      ],
-      "descriptions": [
-        "Calculate federal and state taxes for all 50 states. Free, accurate tax calculator.",
-        "PolicyEngine covers every US state. Compare tax burdens across different locations.",
-        "State income tax calculator with federal taxes included. Instant, accurate results."
-      ],
-      "spend": 3785.618672,
-      "impressions": 5792,
-      "clicks": 382,
-      "conversions": 0.0
-    },
-    {
-      "ad_id": "798144109850",
-      "ad_group_id": "194009163096",
-      "ad_group_name": "ACA / Health Insurance",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org/us/aca-reforms-calculator"
-      ],
-      "headlines": [
-        "ACA Reform Calculator",
-        "Premium Tax Credit Calc",
-        "Health Insurance Subsidies",
-        "ACA Subsidy Calculator",
-        "See Your ACA Impact",
-        "Marketplace Subsidy Calc",
-        "ACA Cliff Calculator",
-        "Free ACA Calculator",
-        "Health Insurance Tax Credit",
-        "ACA Premium Calculator",
-        "Model ACA Reforms",
-        "Your ACA Subsidy Impact",
-        "Enhanced PTC Calculator",
-        "ACA Changes Calculator",
-        "Affordable Care Act Calc"
-      ],
-      "descriptions": [
-        "Calculate your premium tax credit under current law and model any ACA reform scenario.",
-        "Free ACA calculator from PolicyEngine. See how health insurance subsidies affect you.",
-        "How would ACA changes affect your premiums? Enter your details and find out instantly.",
-        "Model enhanced premium tax credits, subsidy cliffs, and ACA reforms. Free and open source."
-      ],
-      "spend": 1834.671744,
-      "impressions": 1951,
-      "clicks": 242,
-      "conversions": 123.0
-    },
-    {
-      "ad_id": "794316760921",
-      "ad_group_id": "195211907467",
-      "ad_group_name": "Microsimulation Software",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org/us/research"
-      ],
-      "headlines": [
-        "Open Source Microsimulation",
-        "Free Policy Modeling Tool",
-        "UK & US Tax-Benefit Model",
-        "Trusted by Governments",
-        "API-First Microsimulation",
-        "Reproducible Policy Analysis",
-        "Used by 10 Downing Street",
-        "Academic Research Ready",
-        "CBO-Style Policy Scoring",
-        "Instant Reform Estimates",
-        "Python Microsimulation API",
-        "Peer-Reviewed Methodology"
-      ],
-      "descriptions": [
-        "Open-source microsimulation trusted by UK PM's Office, US Congress, and leading think tank",
-        "Model tax and benefit reforms instantly. Free API for researchers. Used by governments.",
-        "Reproducible policy analysis with transparent methodology. Join 50+ research institutions.",
-        "Calculate distributional impacts, revenue scores, and household effects in seconds."
-      ],
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "ad_id": "794288162298",
-      "ad_group_id": "197337016772",
-      "ad_group_name": "Government and Think Tank Solutions",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "PAUSED",
-      "final_urls": [
-        "https://policyengine.org/us/about"
-      ],
-      "headlines": [
-        "Trusted by Governments",
-        "Used by UK PM's Office",
-        "Think Tank Research Tool",
-        "Congressional Analysis",
-        "Nonpartisan & Open Source",
-        "Peer-Reviewed Methods",
-        "Institution-Ready",
-        "Enterprise Support",
-        "Custom Model Development",
-        "White-Label Available",
-        "UK & US Coverage",
-        "Expanding to Canada"
-      ],
-      "descriptions": [
-        "PolicyEngine powers analysis at 10 Downing Street, US Congress, and top think tanks.",
-        "Open-source microsimulation with enterprise support for government and research teams.",
-        "Nonpartisan, transparent methodology. Trusted across the political spectrum.",
-        "Join Brookings, NBER, Atlanta Fed, and 50+ institutions using PolicyEngine."
-      ],
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "ad_id": "794296537164",
-      "ad_group_id": "197337016772",
-      "ad_group_name": "Government and Think Tank Solutions",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org/us/team"
-      ],
-      "headlines": [
-        "Trusted by Governments",
-        "Used by UK PM's Office",
-        "Think Tank Research Tool",
-        "Congressional Analysis",
-        "Nonpartisan & Open Source",
-        "Peer-Reviewed Methods",
-        "Institution-Ready",
-        "Enterprise Support",
-        "Custom Model Development",
-        "White-Label Available",
-        "UK & US Coverage",
-        "Expanding to Canada"
-      ],
-      "descriptions": [
-        "PolicyEngine powers analysis at 10 Downing Street, US Congress, and top think tanks.",
-        "Open-source microsimulation with enterprise support for government and research teams.",
-        "Nonpartisan, transparent methodology. Trusted across the political spectrum.",
-        "Join Brookings, NBER, Atlanta Fed, and 50+ institutions using PolicyEngine."
-      ],
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "ad_id": "797901961389",
-      "ad_group_id": "199128564608",
-      "ad_group_name": "Brand",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org"
-      ],
-      "headlines": [
-        "PolicyEngine",
-        "Open Source Policy Analysis",
-        "Free Tax & Benefits Calculator",
-        "Model Any Policy Reform",
-        "AI-Powered Policy Analysis",
-        "Microsimulation Platform",
-        "See Your Full Tax Picture",
-        "Taxes + Benefits Together",
-        "Used by Researchers & Gov",
-        "Open Source & Free",
-        "PolicyEngine Calculator",
-        "Tax & Benefit Microsimulation",
-        "Try PolicyEngine For Free",
-        "All 50 State Tax Coverage",
-        "Trusted Policy Analysis Tool"
-      ],
-      "descriptions": [
-        "Free, open-source tax & benefit calculator. See the full picture: federal/state, benefits.",
-        "Model any policy reform and see who wins and loses. Used by think tanks and government.",
-        "The only open-source microsimulation covering taxes and benefits across all 50 states.",
-        "Calculate taxes and benefits under current law, and any policy reform."
-      ],
-      "spend": 200.974655,
-      "impressions": 542,
-      "clicks": 143,
-      "conversions": 58.5
-    },
-    {
-      "ad_id": "797902300068",
-      "ad_group_id": "200292940264",
-      "ad_group_name": "Research & Tools",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "ENABLED",
-      "final_urls": [],
-      "headlines": [],
-      "descriptions": [],
-      "spend": 974.410393,
-      "impressions": 3223,
-      "clicks": 123,
-      "conversions": 23.0
-    },
-    {
-      "ad_id": "794284794621",
-      "ad_group_id": "200626899028",
-      "ad_group_name": "SALT AMT Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org/us/salt-amt-calculator"
-      ],
-      "headlines": [
-        "SALT Deduction Calculator",
-        "AMT Calculator",
-        "SALT Cap Calculator",
-        "State Local Tax Deduction",
-        "Free SALT Calculator",
-        "2026 SALT Analysis",
-        "PolicyEngine SALTernative",
-        "Compare SALT Scenarios",
-        "Tax Reform Impact",
-        "Instant Results",
-        "Try It Free"
-      ],
-      "descriptions": [
-        "Calculate how SALT deduction changes affect you. Model the cap sunset and AMT impacts.",
-        "PolicyEngine's SALT-AMT calculator shows your tax under different scenarios. Free tool.",
-        "See how state and local tax deduction limits impact your federal taxes. Instant analysis."
-      ],
-      "spend": 683.907141,
-      "impressions": 604,
-      "clicks": 67,
-      "conversions": 0.0
-    },
-    {
-      "ad_id": "647075541518",
-      "ad_group_id": "142647852621",
-      "ad_group_name": "Homepage (non-US)",
-      "campaign_id": "19645727936",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org"
-      ],
-      "headlines": [
-        "Design A Policy",
-        "Instant Policy Analysis",
-        "Computing The Impact Of Policy",
-        "We Use Code To Measure Impact",
-        "Test Out Your Policy Reforms",
-        "Try Our Policy Calculator Now",
-        "Test Tax Reform Ideas",
-        "Designed For Policymakers",
-        "Help With Policy Research",
-        "Test Benefit Reforms",
-        "What Would Policy Reform Do?",
-        "What Would Tax Reform Do?",
-        "Try It Now",
-        "Learn More",
-        "PolicyEngine"
-      ],
-      "descriptions": [
-        "PolicyEngine Offers Free Open Source Software To Help Test Benefits And Tax Policy",
-        "Compute Your Household Income, Including Tax And Benefits, Under Different Policies",
-        "Compute The Impact Of Policy Reforms. A Tool To Assist With Policy And Economic Research",
-        "From Idea To Impact: Score Your Policy Reform On PolicyEngine's Policy Calculator"
-      ],
-      "spend": 1944.171849,
-      "impressions": 2577,
-      "clicks": 312,
-      "conversions": 94.103065
-    },
-    {
-      "ad_id": "648807511129",
-      "ad_group_id": "149834826441",
-      "ad_group_name": "Benefit cliffs",
-      "campaign_id": "19645727936",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "status": "ENABLED",
-      "final_urls": [
-        "https://policyengine.org/us/blog/2023-02-02-how-would-reforms-affect-cliffs"
-      ],
-      "headlines": [
-        "What Is A Benefits Cliff?",
-        "What Is A Welfare Cliff?",
-        "How Does It Impact Policy?",
-        "Calculate Benefits Cliffs",
-        "Calculate Policy Solutions",
-        "Designed For Policymakers",
-        "Try Our Policy Calculator Now",
-        "Test Out Public Policy Ideas",
-        "Effect Of Raising Income",
-        "US Households: Try Now",
-        "Try It Now",
-        "Learn More",
-        "PolicyEngine"
-      ],
-      "descriptions": [
-        "PolicyEngine Offers Free Open Source Software To Help Test Benefits And Tax Policy",
-        "Compute Your Household Income, Including Tax And Benefits, Under Different Policies",
-        "Use Our Policy Calculator To Avoid The Benefits Cliff With Your Reforms",
-        "Find Out What Welfare Cliffs Are And How You Can Avoid Them In Your Policy Reforms"
-      ],
-      "spend": 14.85,
-      "impressions": 124,
-      "clicks": 15,
-      "conversions": 21.7664
     },
     {
       "ad_id": "794284811415",
@@ -4131,6 +3836,110 @@
       "conversions": 0.0
     },
     {
+      "ad_id": "794284806702",
+      "ad_group_id": "193741546764",
+      "ad_group_name": "TCJA Tax Reform Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/household"
+      ],
+      "headlines": [
+        "TCJA Extension Calculator",
+        "Tax Reform Calculator",
+        "2026 Tax Changes",
+        "Trump Tax Cuts Impact",
+        "TCJA Expiration Tool",
+        "Calculate Tax Reform",
+        "PolicyEngine Calculator",
+        "See Your Tax Impact",
+        "Free Tax Analysis",
+        "Nonpartisan Tool",
+        "Instant Results"
+      ],
+      "descriptions": [
+        "See how TCJA extension or expiration affects your taxes. Free, nonpartisan calculator.",
+        "PolicyEngine models the Tax Cuts and Jobs Act provisions. Calculate your personal impact.",
+        "Compare current law with potential tax reform scenarios. Instant, accurate analysis."
+      ],
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "ad_id": "794391819002",
+      "ad_group_id": "193741547684",
+      "ad_group_name": "50 State Tax Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/household"
+      ],
+      "headlines": [
+        "50 State Tax Calculator",
+        "State Tax Comparison",
+        "All States Tax Tool",
+        "Compare State Taxes",
+        "State Income Tax",
+        "PolicyEngine Calculator",
+        "Federal + State Taxes",
+        "Free Calculator",
+        "Instant Results",
+        "Every US State",
+        "Accurate Analysis"
+      ],
+      "descriptions": [
+        "Calculate federal and state taxes for all 50 states. Free, accurate tax calculator.",
+        "PolicyEngine covers every US state. Compare tax burdens across different locations.",
+        "State income tax calculator with federal taxes included. Instant, accurate results."
+      ],
+      "spend": 3785.618672,
+      "impressions": 5792,
+      "clicks": 382,
+      "conversions": 0.0
+    },
+    {
+      "ad_id": "798144109850",
+      "ad_group_id": "194009163096",
+      "ad_group_name": "ACA / Health Insurance",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/aca-reforms-calculator"
+      ],
+      "headlines": [
+        "ACA Reform Calculator",
+        "Premium Tax Credit Calc",
+        "Health Insurance Subsidies",
+        "ACA Subsidy Calculator",
+        "See Your ACA Impact",
+        "Marketplace Subsidy Calc",
+        "ACA Cliff Calculator",
+        "Free ACA Calculator",
+        "Health Insurance Tax Credit",
+        "ACA Premium Calculator",
+        "Model ACA Reforms",
+        "Your ACA Subsidy Impact",
+        "Enhanced PTC Calculator",
+        "ACA Changes Calculator",
+        "Affordable Care Act Calc"
+      ],
+      "descriptions": [
+        "Calculate your premium tax credit under current law and model any ACA reform scenario.",
+        "Free ACA calculator from PolicyEngine. See how health insurance subsidies affect you.",
+        "How would ACA changes affect your premiums? Enter your details and find out instantly.",
+        "Model enhanced premium tax credits, subsidy cliffs, and ACA reforms. Free and open source."
+      ],
+      "spend": 1864.563855,
+      "impressions": 1972,
+      "clicks": 245,
+      "conversions": 126.0
+    },
+    {
       "ad_id": "794284794915",
       "ad_group_id": "194886175569",
       "ad_group_name": "Scottish Budget Calculator",
@@ -4158,10 +3967,10 @@
         "PolicyEngine's Scottish calculator shows your income tax and benefits impact.",
         "See how Scottish tax rates compare to the rest of the UK. Personal impact calculator."
       ],
-      "spend": 1728.321404,
-      "impressions": 5545,
-      "clicks": 418,
-      "conversions": 10.0
+      "spend": 1763.459175,
+      "impressions": 5661,
+      "clicks": 427,
+      "conversions": 12.0
     },
     {
       "ad_id": "794391659165",
@@ -4197,6 +4006,111 @@
       "conversions": 0.0
     },
     {
+      "ad_id": "794316760921",
+      "ad_group_id": "195211907467",
+      "ad_group_name": "Microsimulation Software",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/research"
+      ],
+      "headlines": [
+        "Open Source Microsimulation",
+        "Free Policy Modeling Tool",
+        "UK & US Tax-Benefit Model",
+        "Trusted by Governments",
+        "API-First Microsimulation",
+        "Reproducible Policy Analysis",
+        "Used by 10 Downing Street",
+        "Academic Research Ready",
+        "CBO-Style Policy Scoring",
+        "Instant Reform Estimates",
+        "Python Microsimulation API",
+        "Peer-Reviewed Methodology"
+      ],
+      "descriptions": [
+        "Open-source microsimulation trusted by UK PM's Office, US Congress, and leading think tank",
+        "Model tax and benefit reforms instantly. Free API for researchers. Used by governments.",
+        "Reproducible policy analysis with transparent methodology. Join 50+ research institutions.",
+        "Calculate distributional impacts, revenue scores, and household effects in seconds."
+      ],
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "ad_id": "794288162298",
+      "ad_group_id": "197337016772",
+      "ad_group_name": "Government and Think Tank Solutions",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "PAUSED",
+      "final_urls": [
+        "https://policyengine.org/us/about"
+      ],
+      "headlines": [
+        "Trusted by Governments",
+        "Used by UK PM's Office",
+        "Think Tank Research Tool",
+        "Congressional Analysis",
+        "Nonpartisan & Open Source",
+        "Peer-Reviewed Methods",
+        "Institution-Ready",
+        "Enterprise Support",
+        "Custom Model Development",
+        "White-Label Available",
+        "UK & US Coverage",
+        "Expanding to Canada"
+      ],
+      "descriptions": [
+        "PolicyEngine powers analysis at 10 Downing Street, US Congress, and top think tanks.",
+        "Open-source microsimulation with enterprise support for government and research teams.",
+        "Nonpartisan, transparent methodology. Trusted across the political spectrum.",
+        "Join Brookings, NBER, Atlanta Fed, and 50+ institutions using PolicyEngine."
+      ],
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "ad_id": "794296537164",
+      "ad_group_id": "197337016772",
+      "ad_group_name": "Government and Think Tank Solutions",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/team"
+      ],
+      "headlines": [
+        "Trusted by Governments",
+        "Used by UK PM's Office",
+        "Think Tank Research Tool",
+        "Congressional Analysis",
+        "Nonpartisan & Open Source",
+        "Peer-Reviewed Methods",
+        "Institution-Ready",
+        "Enterprise Support",
+        "Custom Model Development",
+        "White-Label Available",
+        "UK & US Coverage",
+        "Expanding to Canada"
+      ],
+      "descriptions": [
+        "PolicyEngine powers analysis at 10 Downing Street, US Congress, and top think tanks.",
+        "Open-source microsimulation with enterprise support for government and research teams.",
+        "Nonpartisan, transparent methodology. Trusted across the political spectrum.",
+        "Join Brookings, NBER, Atlanta Fed, and 50+ institutions using PolicyEngine."
+      ],
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
       "ad_id": "794313651079",
       "ad_group_id": "197796293248",
       "ad_group_name": "UK Policy Calculator - Trusted by Government",
@@ -4224,10 +4138,10 @@
         "Free tax and benefit calculator piloted by HM Treasury. See how policies affect you.",
         "The UK's most accessible microsimulation model. Used by government and researchers."
       ],
-      "spend": 260.677957,
-      "impressions": 1021,
-      "clicks": 48,
-      "conversions": 5.0
+      "spend": 274.204753,
+      "impressions": 1085,
+      "clicks": 52,
+      "conversions": 8.0
     },
     {
       "ad_id": "794391819560",
@@ -4257,8 +4171,94 @@
         "See how removing the two-child limit would affect UK families. Free calculator."
       ],
       "spend": 71.045008,
-      "impressions": 111,
+      "impressions": 113,
       "clicks": 5,
+      "conversions": 0.0
+    },
+    {
+      "ad_id": "797901961389",
+      "ad_group_id": "199128564608",
+      "ad_group_name": "Brand",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org"
+      ],
+      "headlines": [
+        "PolicyEngine",
+        "Open Source Policy Analysis",
+        "Free Tax & Benefits Calculator",
+        "Model Any Policy Reform",
+        "AI-Powered Policy Analysis",
+        "Microsimulation Platform",
+        "See Your Full Tax Picture",
+        "Taxes + Benefits Together",
+        "Used by Researchers & Gov",
+        "Open Source & Free",
+        "PolicyEngine Calculator",
+        "Tax & Benefit Microsimulation",
+        "Try PolicyEngine For Free",
+        "All 50 State Tax Coverage",
+        "Trusted Policy Analysis Tool"
+      ],
+      "descriptions": [
+        "Free, open-source tax & benefit calculator. See the full picture: federal/state, benefits.",
+        "Model any policy reform and see who wins and loses. Used by think tanks and government.",
+        "The only open-source microsimulation covering taxes and benefits across all 50 states.",
+        "Calculate taxes and benefits under current law, and any policy reform."
+      ],
+      "spend": 200.974655,
+      "impressions": 553,
+      "clicks": 143,
+      "conversions": 58.5
+    },
+    {
+      "ad_id": "797902300068",
+      "ad_group_id": "200292940264",
+      "ad_group_name": "Research & Tools",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [],
+      "headlines": [],
+      "descriptions": [],
+      "spend": 1002.912065,
+      "impressions": 3464,
+      "clicks": 129,
+      "conversions": 23.333334
+    },
+    {
+      "ad_id": "794284794621",
+      "ad_group_id": "200626899028",
+      "ad_group_name": "SALT AMT Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "status": "ENABLED",
+      "final_urls": [
+        "https://policyengine.org/us/salt-amt-calculator"
+      ],
+      "headlines": [
+        "SALT Deduction Calculator",
+        "AMT Calculator",
+        "SALT Cap Calculator",
+        "State Local Tax Deduction",
+        "Free SALT Calculator",
+        "2026 SALT Analysis",
+        "PolicyEngine SALTernative",
+        "Compare SALT Scenarios",
+        "Tax Reform Impact",
+        "Instant Results",
+        "Try It Free"
+      ],
+      "descriptions": [
+        "Calculate how SALT deduction changes affect you. Model the cap sunset and AMT impacts.",
+        "PolicyEngine's SALT-AMT calculator shows your tax under different scenarios. Free tool.",
+        "See how state and local tax deduction limits impact your federal taxes. Instant analysis."
+      ],
+      "spend": 683.907141,
+      "impressions": 604,
+      "clicks": 67,
       "conversions": 0.0
     }
   ],
@@ -4267,10 +4267,10 @@
       "text": "tax calculator",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
-      "spend": 7444.578628,
-      "impressions": 22125,
-      "clicks": 997,
-      "ctr": 0.04506214689265537
+      "spend": 7416.992141,
+      "impressions": 22074,
+      "clicks": 992,
+      "ctr": 0.044939748119960134
     },
     {
       "text": "state tax calculator",
@@ -4286,18 +4286,18 @@
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
       "spend": 2606.730151,
-      "impressions": 7407,
+      "impressions": 7382,
       "clicks": 280,
-      "ctr": 0.03780207911435129
+      "ctr": 0.03793010024383636
     },
     {
       "text": "filing jointly vs separately",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 1933.418962,
-      "impressions": 5906,
-      "clicks": 387,
-      "ctr": 0.06552658313579411
+      "spend": 1961.288962,
+      "impressions": 5974,
+      "clicks": 390,
+      "ctr": 0.06528289253431536
     },
     {
       "text": "scottish tax calculator",
@@ -4312,28 +4312,28 @@
       "text": "marriage tax calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 1482.445681,
-      "impressions": 3675,
-      "clicks": 309,
-      "ctr": 0.08408163265306122
+      "spend": 1545.585662,
+      "impressions": 3804,
+      "clicks": 317,
+      "ctr": 0.08333333333333333
     },
     {
       "text": "premium tax credit calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 927.797601,
-      "impressions": 796,
-      "clicks": 123,
-      "ctr": 0.15452261306532664
+      "spend": 936.189712,
+      "impressions": 802,
+      "clicks": 124,
+      "ctr": 0.1546134663341646
     },
     {
       "text": "tax us",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
       "spend": 913.788001,
-      "impressions": 1686,
+      "impressions": 1678,
       "clicks": 77,
-      "ctr": 0.045670225385527875
+      "ctr": 0.045887961859356376
     },
     {
       "text": "economic policy",
@@ -4345,13 +4345,22 @@
       "ctr": 0.09880749574105621
     },
     {
+      "text": "married vs single tax calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 764.12115,
+      "impressions": 1170,
+      "clicks": 160,
+      "ctr": 0.13675213675213677
+    },
+    {
       "text": "state tax comparison",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 743.486807,
-      "impressions": 763,
-      "clicks": 82,
-      "ctr": 0.10747051114023591
+      "spend": 751.916807,
+      "impressions": 769,
+      "clicks": 83,
+      "ctr": 0.10793237971391417
     },
     {
       "text": "donation tax deduction calculator",
@@ -4361,15 +4370,6 @@
       "impressions": 333,
       "clicks": 50,
       "ctr": 0.15015015015015015
-    },
-    {
-      "text": "married vs single tax calculator",
-      "match_type": "PHRASE",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 731.19115,
-      "impressions": 1140,
-      "clicks": 155,
-      "ctr": 0.13596491228070176
     },
     {
       "text": "public policy analysis",
@@ -4394,9 +4394,9 @@
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
       "spend": 585.88023,
-      "impressions": 973,
+      "impressions": 975,
       "clicks": 77,
-      "ctr": 0.07913669064748201
+      "ctr": 0.07897435897435898
     },
     {
       "text": "budget impact calculator",
@@ -4408,31 +4408,40 @@
       "ctr": 0.10743801652892562
     },
     {
+      "text": "how does marriage affect my taxes",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 497.451711,
+      "impressions": 1641,
+      "clicks": 92,
+      "ctr": 0.056063375990249846
+    },
+    {
       "text": "state tax calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
       "spend": 491.437067,
-      "impressions": 683,
+      "impressions": 686,
       "clicks": 69,
-      "ctr": 0.10102489019033675
+      "ctr": 0.10058309037900874
     },
     {
-      "text": "how does marriage affect my taxes",
+      "text": "health insurance tax credit",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 461.521711,
-      "impressions": 1572,
-      "clicks": 89,
-      "ctr": 0.056615776081424936
+      "spend": 365.623953,
+      "impressions": 492,
+      "clicks": 44,
+      "ctr": 0.08943089430894309
     },
     {
       "text": "tax credit",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
-      "spend": 383.503809,
-      "impressions": 1455,
-      "clicks": 58,
-      "ctr": 0.03986254295532646
+      "spend": 365.113809,
+      "impressions": 1429,
+      "clicks": 55,
+      "ctr": 0.03848845346396081
     },
     {
       "text": "policyengine",
@@ -4451,15 +4460,6 @@
       "impressions": 572,
       "clicks": 151,
       "ctr": 0.263986013986014
-    },
-    {
-      "text": "health insurance tax credit",
-      "match_type": "PHRASE",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 353.133953,
-      "impressions": 486,
-      "clicks": 43,
-      "ctr": 0.08847736625514403
     },
     {
       "text": "state income tax calculator",
@@ -4483,28 +4483,28 @@
       "text": "health insurance subsidy calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 295.01,
-      "impressions": 298,
-      "clicks": 37,
-      "ctr": 0.12416107382550336
+      "spend": 304.02,
+      "impressions": 307,
+      "clicks": 38,
+      "ctr": 0.1237785016286645
+    },
+    {
+      "text": "couples tax calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 288.107978,
+      "impressions": 808,
+      "clicks": 52,
+      "ctr": 0.06435643564356436
     },
     {
       "text": "marriage tax impact",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
       "spend": 254.891929,
-      "impressions": 536,
+      "impressions": 537,
       "clicks": 37,
-      "ctr": 0.06902985074626866
-    },
-    {
-      "text": "couples tax calculator",
-      "match_type": "PHRASE",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 233.847978,
-      "impressions": 759,
-      "clicks": 47,
-      "ctr": 0.061923583662714096
+      "ctr": 0.06890130353817504
     },
     {
       "text": "uk tax calculator",
@@ -4565,9 +4565,9 @@
       "match_type": "EXACT",
       "campaign_name": "PolicyEngine: US",
       "spend": 129.064213,
-      "impressions": 369,
+      "impressions": 376,
       "clicks": 96,
-      "ctr": 0.2601626016260163
+      "ctr": 0.2553191489361702
     },
     {
       "text": "compare state taxes",
@@ -4601,9 +4601,9 @@
       "match_type": "EXACT",
       "campaign_name": "PolicyEngine: US",
       "spend": 71.910442,
-      "impressions": 172,
+      "impressions": 176,
       "clicks": 47,
-      "ctr": 0.27325581395348836
+      "ctr": 0.26704545454545453
     },
     {
       "text": "two child benefit limit",
@@ -4615,31 +4615,40 @@
       "ctr": 0.045454545454545456
     },
     {
+      "text": "scottish income tax rates",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 65.97162,
+      "impressions": 425,
+      "clicks": 23,
+      "ctr": 0.05411764705882353
+    },
+    {
       "text": "tax bill calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 57.728973,
-      "impressions": 475,
-      "clicks": 15,
-      "ctr": 0.031578947368421054
+      "spend": 60.318973,
+      "impressions": 495,
+      "clicks": 16,
+      "ctr": 0.03232323232323232
     },
     {
       "text": "public policy",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: UK and rest of world",
       "spend": 53.978977,
-      "impressions": 242,
+      "impressions": 239,
       "clicks": 19,
-      "ctr": 0.07851239669421488
+      "ctr": 0.0794979079497908
     },
     {
-      "text": "scottish income tax rates",
+      "text": "salary sacrifice calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 48.552253,
-      "impressions": 346,
-      "clicks": 18,
-      "ctr": 0.05202312138728324
+      "spend": 52.286796,
+      "impressions": 192,
+      "clicks": 13,
+      "ctr": 0.06770833333333333
     },
     {
       "text": "salt deduction calculator",
@@ -4669,22 +4678,13 @@
       "ctr": 0.2727272727272727
     },
     {
-      "text": "earned income",
-      "match_type": "BROAD",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 40.17,
-      "impressions": 62,
-      "clicks": 4,
-      "ctr": 0.06451612903225806
-    },
-    {
-      "text": "salary sacrifice calculator",
+      "text": "scotland tax rates",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 38.76,
-      "impressions": 160,
-      "clicks": 9,
-      "ctr": 0.05625
+      "spend": 40.178404,
+      "impressions": 67,
+      "clicks": 10,
+      "ctr": 0.14925373134328357
     },
     {
       "text": "marriage penalty calculator",
@@ -4700,9 +4700,9 @@
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
       "spend": 35.488182,
-      "impressions": 62,
+      "impressions": 63,
       "clicks": 7,
-      "ctr": 0.11290322580645161
+      "ctr": 0.1111111111111111
     },
     {
       "text": "marketplace subsidy calculator",
@@ -4735,7 +4735,7 @@
       "location_name": "Argentina",
       "country_code": "AR",
       "spend": 146.830712,
-      "impressions": 646,
+      "impressions": 643,
       "clicks": 20,
       "conversions": 3.0
     },
@@ -4743,7 +4743,7 @@
       "location_name": "Australia",
       "country_code": "AU",
       "spend": 106.19,
-      "impressions": 204,
+      "impressions": 205,
       "clicks": 12,
       "conversions": 0.0
     },
@@ -5055,7 +5055,7 @@
       "location_name": "Hong Kong",
       "country_code": "HK",
       "spend": 21.32,
-      "impressions": 60,
+      "impressions": 62,
       "clicks": 4,
       "conversions": 0.0
     },
@@ -5095,7 +5095,7 @@
       "location_name": "Iraq",
       "country_code": "IQ",
       "spend": 265.304381,
-      "impressions": 131,
+      "impressions": 129,
       "clicks": 29,
       "conversions": 2.0
     },
@@ -5551,7 +5551,7 @@
       "location_name": "Turkey",
       "country_code": "TR",
       "spend": 482.590534,
-      "impressions": 725,
+      "impressions": 724,
       "clicks": 52,
       "conversions": 2.790491
     },
@@ -5582,10 +5582,10 @@
     {
       "location_name": "United Kingdom",
       "country_code": "UK",
-      "spend": 2775.112659,
-      "impressions": 7470,
-      "clicks": 558,
-      "conversions": 43.639462
+      "spend": 2823.777226,
+      "impressions": 7649,
+      "clicks": 571,
+      "conversions": 48.639462
     },
     {
       "location_name": "Tanzania",
@@ -5598,10 +5598,10 @@
     {
       "location_name": "United States",
       "country_code": "US",
-      "spend": 27777.569571,
-      "impressions": 63675,
-      "clicks": 4079,
-      "conversions": 1239.852738
+      "spend": 28004.586848,
+      "impressions": 64217,
+      "clicks": 4105,
+      "conversions": 1264.852738
     },
     {
       "location_name": "Country 2887",
