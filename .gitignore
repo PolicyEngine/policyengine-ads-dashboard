@@ -6,10 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+bun-debug.log*
 
 node_modules
-dist
-dist-ssr
+.next
+out
 *.local
 
 # Editor directories and files
@@ -37,3 +38,10 @@ htmlcov/
 .pytest_cache/
 uv.lock
 .vercel
+
+# Next.js / TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# We use bun
+package-lock.json

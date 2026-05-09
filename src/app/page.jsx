@@ -1,6 +1,7 @@
-import '@mantine/core/styles.css';
+'use client';
+
 import { useState } from 'react';
-import { MantineProvider, Container, Tabs, Text, Center, Loader, Alert, Box, Group, Title, Badge } from '@mantine/core';
+import { MantineProvider, Container, Tabs, Text, Center, Loader, Alert, Box, Group, Title } from '@mantine/core';
 import {
   IconChartBar,
   IconList,
@@ -9,15 +10,15 @@ import {
   IconAlertCircle,
   IconAd,
 } from '@tabler/icons-react';
-import { theme } from './theme';
-import Header from './components/Header';
-import SummaryCards from './components/SummaryCards';
-import TimeSeriesChart from './components/TimeSeriesChart';
-import CampaignTable from './components/CampaignTable';
-import KeywordTable from './components/KeywordTable';
-import GeographyChart from './components/GeographyChart';
-import AdsTable from './components/AdsTable';
-import useAdsData from './hooks/useAdsData';
+import { theme } from '@/theme';
+import Header from '@/components/Header';
+import SummaryCards from '@/components/SummaryCards';
+import TimeSeriesChart from '@/components/TimeSeriesChart';
+import CampaignTable from '@/components/CampaignTable';
+import KeywordTable from '@/components/KeywordTable';
+import GeographyChart from '@/components/GeographyChart';
+import AdsTable from '@/components/AdsTable';
+import useAdsData from '@/hooks/useAdsData';
 
 function LoadingState() {
   return (
