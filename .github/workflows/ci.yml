@@ -7,26 +7,32 @@ on:
     branches: [main]
 
 jobs:
-  test-frontend:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-
+      - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
+      - run: bun install --frozen-lockfile
+      - run: bun run build
 
-      - name: Install dependencies
-        run: bun install
+  test:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run test
 
-      - name: Run tests
-        run: bun run test
-
-      - name: Lint
-        run: bun run lint
-
-      - name: Build
-        run: bun run build
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run lint
 
   test-python:
     runs-on: ubuntu-latest

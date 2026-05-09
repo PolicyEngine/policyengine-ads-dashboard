@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const DATA_URL = import.meta.env.BASE_URL + 'data/google-ads.json';
+const DATA_URL = '/data/google-ads.json';
 
 export default function useAdsData() {
   const [data, setData] = useState(null);
