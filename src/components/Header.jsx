@@ -1,4 +1,26 @@
-import { Container, Group, Text, Title, Badge } from '@mantine/core';
+'use client';
+
+import { Header as PolicyEngineSiteHeader } from '@policyengine/ui-kit';
+
+const navItems = [
+  { label: 'Research', href: 'https://policyengine.org/us/research' },
+  { label: 'Model', href: 'https://policyengine.org/us/model' },
+  { label: 'API', href: 'https://policyengine.org/us/api' },
+  {
+    label: 'About',
+    href: 'https://policyengine.org/us/team',
+    children: [
+      { label: 'Team', href: 'https://policyengine.org/us/team' },
+      { label: 'Supporters', href: 'https://policyengine.org/us/supporters' },
+    ],
+  },
+  { label: 'Donate', href: 'https://policyengine.org/us/donate' },
+];
+
+const countries = [
+  { id: 'us', label: 'United States' },
+  { id: 'uk', label: 'United Kingdom' },
+];
 
 export default function Header({ lastUpdated }) {
   const formattedDate = lastUpdated
@@ -12,24 +34,20 @@ export default function Header({ lastUpdated }) {
     : null;
 
   return (
-    <header style={{ backgroundColor: '#319795', padding: '0.75rem 0' }}>
-      <Container fluid px="xl">
-        <Group justify="space-between" align="center">
-          <Group gap="sm">
-            <Text c="white" fw={700} size="md">
-              PolicyEngine
-            </Text>
-            <Title order={1} c="white" size="h4">
-              Ads transparency dashboard
-            </Title>
-          </Group>
-          {formattedDate && (
-            <Badge variant="light" color="white" size="md">
-              Last updated: {formattedDate}
-            </Badge>
-          )}
-        </Group>
-      </Container>
-    </header>
+    <>
+      <PolicyEngineSiteHeader
+        navItems={navItems}
+        countries={countries}
+        currentCountry="us"
+        logoHref="https://policyengine.org/us"
+        onCountryChange={(countryId) => {
+          window.location.href = `https://policyengine.org/${countryId}`;
+        }}
+      />
+      <div className="ads-dashboard-shellbar" aria-label="Ads dashboard status">
+        <span>Ads transparency dashboard</span>
+        {formattedDate && <span>Last updated: {formattedDate}</span>}
+      </div>
+    </>
   );
 }

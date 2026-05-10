@@ -21,6 +21,6 @@ describe('Header', () => {
 
   it('shows PolicyEngine branding', () => {
     renderWithMantine(<Header />);
-    expect(screen.getByText('PolicyEngine')).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /PolicyEngine/i })).toBeInTheDocument();
   });
 });
