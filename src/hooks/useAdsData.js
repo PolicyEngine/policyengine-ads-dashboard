@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const DATA_URL = '/data/google-ads.json';
+const DATA_URL = `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/data/google-ads.json`;
 
 export default function useAdsData() {
   const [data, setData] = useState(null);
