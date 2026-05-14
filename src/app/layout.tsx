@@ -1,3 +1,6 @@
+import { PolicyEngineShell } from "@policyengine/ui-kit/layout";
+import "@policyengine/ui-kit/styles.css";
+
 import type { Metadata, Viewport } from 'next';
 import { ColorSchemeScript, mantineHtmlProps } from '@mantine/core';
 import './globals.css';
@@ -26,7 +29,9 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body>{children}</body>
+      <body>
+        <PolicyEngineShell country="us">{children}        </PolicyEngineShell>
+      </body>
     </html>
   );
 }
