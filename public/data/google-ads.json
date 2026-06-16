@@ -1,27 +1,20 @@
 {
   "platform": "google_ads",
   "platform_name": "Google Ads",
-  "last_updated": "2026-06-15T08:15:46.740956Z",
+  "last_updated": "2026-06-16T08:09:21.447067Z",
   "date_range": {
-    "start": "2025-06-15",
-    "end": "2026-06-15"
+    "start": "2025-06-16",
+    "end": "2026-06-16"
   },
   "summary": {
-    "total_spend": 43500.97,
-    "total_impressions": 96771,
-    "total_clicks": 6660,
+    "total_spend": 43676.83,
+    "total_impressions": 97238,
+    "total_clicks": 6689,
     "ctr": 0.0688,
-    "conversions": 2463,
+    "conversions": 2481,
     "avg_cpc": 6.53
   },
   "daily": [
-    {
-      "date": "2025-06-15",
-      "spend": 19.812917,
-      "impressions": 35,
-      "clicks": 4,
-      "conversions": 0.0
-    },
     {
       "date": "2025-06-16",
       "spend": 10.69,
@@ -2572,9 +2565,16 @@
     },
     {
       "date": "2026-06-15",
-      "spend": 9.05,
-      "impressions": 21,
-      "clicks": 2,
+      "spend": 201.158834,
+      "impressions": 498,
+      "clicks": 34,
+      "conversions": 18.0
+    },
+    {
+      "date": "2026-06-16",
+      "spend": 3.570801,
+      "impressions": 25,
+      "clicks": 1,
       "conversions": 0.0
     }
   ],
@@ -2583,41 +2583,31 @@
       "id": "19638300165",
       "name": "PolicyEngine: US",
       "status": "ENABLED",
-      "spend": 37352.775141,
-      "impressions": 82516,
-      "clicks": 5428,
-      "conversions": 2311.922493,
-      "ctr": 0.0657811818314024
+      "spend": 37502.541058,
+      "impressions": 82925,
+      "clicks": 5451,
+      "conversions": 2329.922493,
+      "ctr": 0.06573409707567078
     },
     {
       "id": "19645727936",
       "name": "PolicyEngine: UK and rest of world",
       "status": "ENABLED",
-      "spend": 6148.192611,
-      "impressions": 14255,
-      "clicks": 1232,
+      "spend": 6174.293412,
+      "impressions": 14313,
+      "clicks": 1238,
       "conversions": 151.953671,
-      "ctr": 0.08642581550333217
+      "ctr": 0.08649479494166143
     }
   ],
   "ad_groups": [
-    {
-      "id": "142647852621",
-      "name": "Homepage (non-US)",
-      "campaign_id": "19645727936",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 1966.932474,
-      "impressions": 2394,
-      "clicks": 307,
-      "conversions": 89.187271
-    },
     {
       "id": "143114843741",
       "name": "Child Tax Credit",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
       "spend": 3375.637848,
-      "impressions": 8126,
+      "impressions": 8125,
       "clicks": 338,
       "conversions": 45.937373
     },
@@ -2636,20 +2626,10 @@
       "name": "Oregon Earned Income Tax Credit",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 7331.866623,
-      "impressions": 21535,
-      "clicks": 966,
+      "spend": 7312.053706,
+      "impressions": 21503,
+      "clicks": 962,
       "conversions": 154.364988
-    },
-    {
-      "id": "149834826441",
-      "name": "Benefit cliffs",
-      "campaign_id": "19645727936",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 13.2,
-      "impressions": 122,
-      "clicks": 14,
-      "conversions": 19.7664
     },
     {
       "id": "152339858570",
@@ -2677,7 +2657,7 @@
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
       "spend": 358.724943,
-      "impressions": 598,
+      "impressions": 596,
       "clicks": 152,
       "conversions": 53.118979
     },
@@ -2756,10 +2736,10 @@
       "name": "Marriage Calculator",
       "campaign_id": "19638300165",
       "campaign_name": "PolicyEngine: US",
-      "spend": 14583.827298,
-      "impressions": 32237,
-      "clicks": 2325,
-      "conversions": 1554.666666
+      "spend": 14751.536132,
+      "impressions": 32670,
+      "clicks": 2350,
+      "conversions": 1572.666666
     },
     {
       "id": "193592253076",
@@ -2780,6 +2760,116 @@
       "impressions": 0,
       "clicks": 0,
       "conversions": 0.0
+    },
+    {
+      "id": "193741546764",
+      "name": "TCJA Tax Reform Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "193741547684",
+      "name": "50 State Tax Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 3785.618672,
+      "impressions": 5792,
+      "clicks": 382,
+      "conversions": 0.0
+    },
+    {
+      "id": "194009163096",
+      "name": "ACA / Health Insurance",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 2470.822864,
+      "impressions": 2660,
+      "clicks": 339,
+      "conversions": 167.0
+    },
+    {
+      "id": "195211907467",
+      "name": "Microsimulation Software",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "197337016772",
+      "name": "Government and Think Tank Solutions",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "199128564608",
+      "name": "Brand",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 281.993167,
+      "impressions": 861,
+      "clicks": 220,
+      "conversions": 67.846442
+    },
+    {
+      "id": "200292940264",
+      "name": "Research & Tools",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 1285.157543,
+      "impressions": 5895,
+      "clicks": 204,
+      "conversions": 38.333334
+    },
+    {
+      "id": "200626899028",
+      "name": "SALT AMT Calculator",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 683.907141,
+      "impressions": 604,
+      "clicks": 67,
+      "conversions": 0.0
+    },
+    {
+      "id": "200630528068",
+      "name": "TEST-DELETE-ME-grantweston-adgroup",
+      "campaign_id": "19638300165",
+      "campaign_name": "PolicyEngine: US",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0.0
+    },
+    {
+      "id": "142647852621",
+      "name": "Homepage (non-US)",
+      "campaign_id": "19645727936",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 1966.932474,
+      "impressions": 2394,
+      "clicks": 307,
+      "conversions": 89.187271
+    },
+    {
+      "id": "149834826441",
+      "name": "Benefit cliffs",
+      "campaign_id": "19645727936",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 13.2,
+      "impressions": 122,
+      "clicks": 14,
+      "conversions": 19.7664
     },
     {
       "id": "193621027353",
@@ -2822,43 +2912,13 @@
       "conversions": 0.0
     },
     {
-      "id": "193741546764",
-      "name": "TCJA Tax Reform Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "id": "193741547684",
-      "name": "50 State Tax Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 3785.618672,
-      "impressions": 5792,
-      "clicks": 382,
-      "conversions": 0.0
-    },
-    {
-      "id": "194009163096",
-      "name": "ACA / Health Insurance",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 2470.822864,
-      "impressions": 2660,
-      "clicks": 339,
-      "conversions": 167.0
-    },
-    {
       "id": "194886175569",
       "name": "Scottish Budget Calculator",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 2268.969461,
-      "impressions": 7473,
-      "clicks": 567,
+      "spend": 2290.290262,
+      "impressions": 7510,
+      "clicks": 572,
       "conversions": 28.0
     },
     {
@@ -2872,33 +2932,13 @@
       "conversions": 0.0
     },
     {
-      "id": "195211907467",
-      "name": "Microsimulation Software",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
-      "id": "197337016772",
-      "name": "Government and Think Tank Solutions",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
-      "conversions": 0.0
-    },
-    {
       "id": "197796293248",
       "name": "UK Policy Calculator - Trusted by Government",
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 630.095427,
-      "impressions": 1842,
-      "clicks": 121,
+      "spend": 634.875427,
+      "impressions": 1862,
+      "clicks": 122,
       "conversions": 15.0
     },
     {
@@ -2907,48 +2947,8 @@
       "campaign_id": "19645727936",
       "campaign_name": "PolicyEngine: UK and rest of world",
       "spend": 83.237697,
-      "impressions": 210,
+      "impressions": 211,
       "clicks": 7,
-      "conversions": 0.0
-    },
-    {
-      "id": "199128564608",
-      "name": "Brand",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 280.123167,
-      "impressions": 853,
-      "clicks": 218,
-      "conversions": 67.846442
-    },
-    {
-      "id": "200292940264",
-      "name": "Research & Tools",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 1285.157543,
-      "impressions": 5892,
-      "clicks": 204,
-      "conversions": 38.333334
-    },
-    {
-      "id": "200626899028",
-      "name": "SALT AMT Calculator",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 683.907141,
-      "impressions": 604,
-      "clicks": 67,
-      "conversions": 0.0
-    },
-    {
-      "id": "200630528068",
-      "name": "TEST-DELETE-ME-grantweston-adgroup",
-      "campaign_id": "19638300165",
-      "campaign_name": "PolicyEngine: US",
-      "spend": 0.0,
-      "impressions": 0,
-      "clicks": 0,
       "conversions": 0.0
     }
   ],
@@ -3021,7 +3021,7 @@
         "What Is Child Tax Credit And How Much Is It Worth? Find Out Now"
       ],
       "spend": 3375.637848,
-      "impressions": 8126,
+      "impressions": 8125,
       "clicks": 338,
       "conversions": 45.937373
     },
@@ -3095,9 +3095,9 @@
         "Calculate The Impact That Earned Income Tax Credit Would Have On Your Household Income",
         "The Federal Earned Income Tax Credit Is Accrued By Working And It Lowers Tax Liability"
       ],
-      "spend": 7331.866623,
-      "impressions": 21535,
-      "clicks": 966,
+      "spend": 7312.053706,
+      "impressions": 21503,
+      "clicks": 962,
       "conversions": 154.364988
     },
     {
@@ -3241,7 +3241,7 @@
         "Calculate Impact Of Different Forms Of Basic Income, From UBI To Means-Dependent Payments"
       ],
       "spend": 358.724943,
-      "impressions": 598,
+      "impressions": 596,
       "clicks": 152,
       "conversions": 53.118979
     },
@@ -3627,10 +3627,10 @@
         "Should you file jointly or separately? See the full impact on taxes and benefits.",
         "Calculate your marriage penalty or bonus across taxes and benefits. Free on PolicyEngine."
       ],
-      "spend": 14583.827298,
-      "impressions": 32237,
-      "clicks": 2325,
-      "conversions": 1554.666666
+      "spend": 14751.536132,
+      "impressions": 32670,
+      "clicks": 2350,
+      "conversions": 1572.666666
     },
     {
       "ad_id": "798014647346",
@@ -3967,9 +3967,9 @@
         "PolicyEngine's Scottish calculator shows your income tax and benefits impact.",
         "See how Scottish tax rates compare to the rest of the UK. Personal impact calculator."
       ],
-      "spend": 2268.969461,
-      "impressions": 7473,
-      "clicks": 567,
+      "spend": 2290.290262,
+      "impressions": 7510,
+      "clicks": 572,
       "conversions": 28.0
     },
     {
@@ -4138,9 +4138,9 @@
         "Free tax and benefit calculator piloted by HM Treasury. See how policies affect you.",
         "The UK's most accessible microsimulation model. Used by government and researchers."
       ],
-      "spend": 630.095427,
-      "impressions": 1842,
-      "clicks": 121,
+      "spend": 634.875427,
+      "impressions": 1862,
+      "clicks": 122,
       "conversions": 15.0
     },
     {
@@ -4171,7 +4171,7 @@
         "See how removing the two-child limit would affect UK families. Free calculator."
       ],
       "spend": 83.237697,
-      "impressions": 210,
+      "impressions": 211,
       "clicks": 7,
       "conversions": 0.0
     },
@@ -4208,9 +4208,9 @@
         "The only open-source microsimulation covering taxes and benefits across all 50 states.",
         "Calculate taxes and benefits under current law, and any policy reform."
       ],
-      "spend": 280.123167,
-      "impressions": 853,
-      "clicks": 218,
+      "spend": 281.993167,
+      "impressions": 861,
+      "clicks": 220,
       "conversions": 67.846442
     },
     {
@@ -4224,7 +4224,7 @@
       "headlines": [],
       "descriptions": [],
       "spend": 1285.157543,
-      "impressions": 5892,
+      "impressions": 5895,
       "clicks": 204,
       "conversions": 38.333334
     },
@@ -4267,28 +4267,28 @@
       "text": "tax calculator",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
-      "spend": 7084.972814,
-      "impressions": 20502,
-      "clicks": 930,
-      "ctr": 0.04536142815335089
+      "spend": 7065.159897,
+      "impressions": 20470,
+      "clicks": 926,
+      "ctr": 0.04523693209574988
     },
     {
       "text": "marriage tax calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 4552.094302,
-      "impressions": 10247,
-      "clicks": 751,
-      "ctr": 0.073289743339514
+      "spend": 4567.824302,
+      "impressions": 10362,
+      "clicks": 754,
+      "ctr": 0.07276587531364602
     },
     {
       "text": "filing jointly vs separately",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 4384.557561,
-      "impressions": 10078,
-      "clicks": 709,
-      "ctr": 0.07035126017066878
+      "spend": 4432.667561,
+      "impressions": 10173,
+      "clicks": 716,
+      "ctr": 0.07038238474393001
     },
     {
       "text": "state tax calculator",
@@ -4312,10 +4312,10 @@
       "text": "how does marriage affect my taxes",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 2437.74928,
-      "impressions": 5532,
-      "clicks": 341,
-      "ctr": 0.061641359363702096
+      "spend": 2484.957908,
+      "impressions": 5673,
+      "clicks": 348,
+      "ctr": 0.061343204653622425
     },
     {
       "text": "scottish tax calculator",
@@ -4330,19 +4330,19 @@
       "text": "married vs single tax calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 1547.27237,
-      "impressions": 2055,
-      "clicks": 285,
-      "ctr": 0.1386861313868613
+      "spend": 1576.32237,
+      "impressions": 2073,
+      "clicks": 289,
+      "ctr": 0.13941148094548964
     },
     {
       "text": "couples tax calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 1135.008231,
-      "impressions": 3081,
-      "clicks": 162,
-      "ctr": 0.05258033106134372
+      "spend": 1155.868437,
+      "impressions": 3137,
+      "clicks": 165,
+      "ctr": 0.05259802358941664
     },
     {
       "text": "premium tax credit calculator",
@@ -4367,9 +4367,9 @@
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
       "spend": 834.737251,
-      "impressions": 1366,
+      "impressions": 1365,
       "clicks": 66,
-      "ctr": 0.048316251830161056
+      "ctr": 0.04835164835164835
     },
     {
       "text": "state tax comparison",
@@ -4457,9 +4457,18 @@
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: US",
       "spend": 353.134943,
-      "impressions": 557,
+      "impressions": 555,
       "clicks": 151,
-      "ctr": 0.2710951526032316
+      "ctr": 0.27207207207207207
+    },
+    {
+      "text": "scottish income tax rates",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 348.548601,
+      "impressions": 1563,
+      "clicks": 98,
+      "ctr": 0.06269993602047345
     },
     {
       "text": "policyengine",
@@ -4469,15 +4478,6 @@
       "impressions": 574,
       "clicks": 122,
       "ctr": 0.21254355400696864
-    },
-    {
-      "text": "scottish income tax rates",
-      "match_type": "PHRASE",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 337.3978,
-      "impressions": 1537,
-      "clicks": 95,
-      "ctr": 0.06180871828236825
     },
     {
       "text": "state income tax calculator",
@@ -4493,9 +4493,9 @@
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
       "spend": 312.324539,
-      "impressions": 728,
+      "impressions": 731,
       "clicks": 44,
-      "ctr": 0.06043956043956044
+      "ctr": 0.060191518467852256
     },
     {
       "text": "state local tax deduction",
@@ -4528,10 +4528,10 @@
       "text": "salary sacrifice calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 210.247621,
-      "impressions": 502,
-      "clicks": 47,
-      "ctr": 0.09362549800796813
+      "spend": 215.027621,
+      "impressions": 513,
+      "clicks": 48,
+      "ctr": 0.0935672514619883
     },
     {
       "text": "uk tax calculator",
@@ -4543,6 +4543,15 @@
       "ctr": 0.050734312416555405
     },
     {
+      "text": "scottish tax calculator",
+      "match_type": "PHRASE",
+      "campaign_name": "PolicyEngine: UK and rest of world",
+      "spend": 208.119318,
+      "impressions": 426,
+      "clicks": 60,
+      "ctr": 0.14084507042253522
+    },
+    {
       "text": "fiscal policy",
       "match_type": "BROAD",
       "campaign_name": "PolicyEngine: UK and rest of world",
@@ -4550,15 +4559,6 @@
       "impressions": 147,
       "clicks": 22,
       "ctr": 0.14965986394557823
-    },
-    {
-      "text": "scottish tax calculator",
-      "match_type": "PHRASE",
-      "campaign_name": "PolicyEngine: UK and rest of world",
-      "spend": 197.949318,
-      "impressions": 422,
-      "clicks": 58,
-      "ctr": 0.13744075829383887
     },
     {
       "text": "salt cap calculator",
@@ -4573,10 +4573,10 @@
       "text": "policy engine",
       "match_type": "EXACT",
       "campaign_name": "PolicyEngine: US",
-      "spend": 178.206405,
-      "impressions": 568,
-      "clicks": 145,
-      "ctr": 0.25528169014084506
+      "spend": 179.016405,
+      "impressions": 570,
+      "clicks": 146,
+      "ctr": 0.256140350877193
     },
     {
       "text": "charitable contribution calculator",
@@ -4627,28 +4627,28 @@
       "text": "policyengine",
       "match_type": "EXACT",
       "campaign_name": "PolicyEngine: US",
-      "spend": 101.916762,
-      "impressions": 282,
-      "clicks": 73,
-      "ctr": 0.25886524822695034
+      "spend": 102.976762,
+      "impressions": 288,
+      "clicks": 74,
+      "ctr": 0.2569444444444444
     },
     {
       "text": "marriage benefits calculator",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
-      "spend": 91.095104,
-      "impressions": 212,
-      "clicks": 14,
-      "ctr": 0.0660377358490566
+      "spend": 97.845104,
+      "impressions": 214,
+      "clicks": 15,
+      "ctr": 0.07009345794392523
     },
     {
       "text": "scotland tax rates",
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: UK and rest of world",
       "spend": 88.593192,
-      "impressions": 401,
+      "impressions": 408,
       "clicks": 24,
-      "ctr": 0.059850374064837904
+      "ctr": 0.058823529411764705
     },
     {
       "text": "uk income tax calculator",
@@ -4673,9 +4673,9 @@
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: US",
       "spend": 70.255911,
-      "impressions": 257,
+      "impressions": 260,
       "clicks": 10,
-      "ctr": 0.038910505836575876
+      "ctr": 0.038461538461538464
     },
     {
       "text": "marketplace subsidy calculator",
@@ -4700,9 +4700,9 @@
       "match_type": "PHRASE",
       "campaign_name": "PolicyEngine: UK and rest of world",
       "spend": 55.654981,
-      "impressions": 176,
+      "impressions": 179,
       "clicks": 8,
-      "ctr": 0.045454545454545456
+      "ctr": 0.0446927374301676
     },
     {
       "text": "marriage penalty calculator",
@@ -5574,9 +5574,9 @@
     {
       "location_name": "United Kingdom",
       "country_code": "UK",
-      "spend": 3692.5051049999997,
-      "impressions": 10274,
-      "clicks": 782,
+      "spend": 3718.605906,
+      "impressions": 10332,
+      "clicks": 788,
       "conversions": 67.63946200000001
     },
     {
@@ -5590,10 +5590,10 @@
     {
       "location_name": "United States",
       "country_code": "US",
-      "spend": 37561.034476,
-      "impressions": 82876,
-      "clicks": 5512,
-      "conversions": 2336.148112
+      "spend": 37710.800393,
+      "impressions": 83285,
+      "clicks": 5535,
+      "conversions": 2354.148112
     },
     {
       "location_name": "Country 2887",
