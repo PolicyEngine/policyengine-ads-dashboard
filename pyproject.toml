@@ -23,6 +23,9 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
 ]
 dependencies = [
+    # The data-fetch workflow points gRPC at certifi's CA list; 2026.10.19 is the
+    # first release without the compromised eMudhra root.
+    "certifi>=2026.10.19",
     "google-ads>=24.0.0",
     "pydantic>=2.0.0",
 ]

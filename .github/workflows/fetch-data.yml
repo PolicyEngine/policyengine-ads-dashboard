@@ -33,7 +33,16 @@ jobs:
           GOOGLE_ADS_DEVELOPER_TOKEN: ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
           GOOGLE_ADS_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_CUSTOMER_ID }}
           GOOGLE_ADS_LOGIN_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_LOGIN_CUSTOMER_ID }}
-        run: fetch-ads-data
+        run: |
+          # google-ads makes its API calls through grpcio, which ships its own CA
+          # list. Every grpcio release through 1.84.0 still trusts the compromised
+          # eMudhra root "emSign ECC Root CA - G3", so point gRPC at certifi's CA
+          # list instead (certifi 2026.10.19 and later no longer include it).
+          # The assignment is kept separate from the export so that a failure of
+          # `python -m certifi` fails this step instead of leaving the path empty.
+          GRPC_DEFAULT_SSL_ROOTS_FILE_PATH="$(python -m certifi)"
+          export GRPC_DEFAULT_SSL_ROOTS_FILE_PATH
+          fetch-ads-data
 
       - name: Commit updated data
         run: |
