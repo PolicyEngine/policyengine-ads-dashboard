@@ -1,5 +1,6 @@
 """PolicyEngine Ads Dashboard - transparency data for advertising performance."""
 
+from policyengine_ads_dashboard.fetcher import GoogleAdsFetcher
 from policyengine_ads_dashboard.models import (
     Ad,
     AdGroup,
@@ -10,7 +11,6 @@ from policyengine_ads_dashboard.models import (
     PlatformData,
     Summary,
 )
-from policyengine_ads_dashboard.fetcher import GoogleAdsFetcher
 
 __version__ = "0.1.0"
 __all__ = [
